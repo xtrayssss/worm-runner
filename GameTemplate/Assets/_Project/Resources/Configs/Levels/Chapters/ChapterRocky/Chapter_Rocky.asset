@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5d87d62d424155ab05d9d42a55e5da, type: 3}
+  m_Name: Chapter_Rocky
+  m_EditorClassIdentifier: 
+  _biome:
+    _fogColor: {r: 0.35686275, g: 0.36862746, b: 0.39215687, a: 1}
+    _fogParticleAlpha: 0.15686275
+    _roadColor: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    _groundSprite: {fileID: 21300000, guid: 29d44fac9c0414e48ad88c6c17543026, type: 3}
+  _levels:
+  - {fileID: 11400000, guid: 56f8d8e7cee57bc4bb9256d36073c3e6, type: 2}

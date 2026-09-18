@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: ed249e7301d9d5742b790781b24382d4
+timeCreated: 1759696004
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Lilita One
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName: 115dd5dc4f2ecbd915f6ecdeb392c36e.bundle
+  assetBundleVariant:

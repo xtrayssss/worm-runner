@@ -1,0 +1,19 @@
+{
+    "name": "SaveFeature",
+    "rootNamespace": "",
+    "references": [
+        "GUID:85255f4d3f384ef48e2d00d946462814",
+        "GUID:b71f8efa8a7df964d8ded756eb3df5e7",
+        "GUID:e2c3782dc6445491e87d280768bacab5",
+        "GUID:e060415cdf724429a44de050ffca2266"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

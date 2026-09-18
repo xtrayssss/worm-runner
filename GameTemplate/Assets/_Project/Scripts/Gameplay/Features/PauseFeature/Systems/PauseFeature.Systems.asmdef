@@ -1,0 +1,18 @@
+{
+    "name": "PauseFeature.Systems",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3377deebfb0acde45876d12c6e3d27cc",
+        "PauseFeature.Components",
+        "FeatureTree"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

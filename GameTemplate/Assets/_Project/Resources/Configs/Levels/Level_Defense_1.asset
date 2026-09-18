@@ -1,0 +1,4256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2702ebee8f254f51b30c6a917e55b703, type: 3}
+  m_Name: Level_Defense_1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _levelObjects
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 18
+    - Name: 
+      Entry: 7
+      Data: 1|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 25.5828323
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 2|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 24
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 7
+      Data: 3|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig,
+        Assembly-CSharp
+    - Name: _effectType
+      Entry: 3
+      Data: 1
+    - Name: _effectValue
+      Entry: 4
+      Data: 1.979567
+    - Name: _statConfig
+      Entry: 7
+      Data: 4|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig+StatModificationConfig,
+        Assembly-CSharp
+    - Name: _targetStat
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 2
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 46.5095062
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 6|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 24
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 7
+      Data: 7|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig,
+        Assembly-CSharp
+    - Name: _effectType
+      Entry: 3
+      Data: 0
+    - Name: _effectValue
+      Entry: 4
+      Data: 8.134884
+    - Name: _statConfig
+      Entry: 7
+      Data: 8|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig+StatModificationConfig,
+        Assembly-CSharp
+    - Name: _targetStat
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 4
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 67.7765
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 10|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 7
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 7
+      Data: 11|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.GateConfig,
+        Assembly-CSharp
+    - Name: _effectType
+      Entry: 3
+      Data: 0
+    - Name: _effectValue
+      Entry: 4
+      Data: 2.58872056
+    - Name: _isEnhanceable
+      Entry: 5
+      Data: true
+    - Name: _step
+      Entry: 4
+      Data: 0.02
+    - Name: _statConfig
+      Entry: 7
+      Data: 12|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.GateConfig+StatModificationConfig,
+        Assembly-CSharp
+    - Name: _targetStat
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 6
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 86.34842
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 14|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 24
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 7
+      Data: 15|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig,
+        Assembly-CSharp
+    - Name: _effectType
+      Entry: 3
+      Data: 0
+    - Name: _effectValue
+      Entry: 4
+      Data: 8.163612
+    - Name: _statConfig
+      Entry: 7
+      Data: 16|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig+StatModificationConfig,
+        Assembly-CSharp
+    - Name: _targetStat
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 8
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 105.779022
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 18|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 24
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 7
+      Data: 19|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig,
+        Assembly-CSharp
+    - Name: _effectType
+      Entry: 3
+      Data: 1
+    - Name: _effectValue
+      Entry: 4
+      Data: 4.56147337
+    - Name: _statConfig
+      Entry: 7
+      Data: 20|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig+StatModificationConfig,
+        Assembly-CSharp
+    - Name: _targetStat
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 10
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 21|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -3
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 126.882149
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 22|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 7
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 7
+      Data: 23|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.GateConfig,
+        Assembly-CSharp
+    - Name: _effectType
+      Entry: 3
+      Data: 0
+    - Name: _effectValue
+      Entry: 4
+      Data: -2.17185616
+    - Name: _isEnhanceable
+      Entry: 5
+      Data: true
+    - Name: _step
+      Entry: 4
+      Data: 0.02
+    - Name: _statConfig
+      Entry: 7
+      Data: 24|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.GateConfig+StatModificationConfig,
+        Assembly-CSharp
+    - Name: _targetStat
+      Entry: 3
+      Data: 21
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 12
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -3
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 146.614044
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 26|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 24
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 7
+      Data: 27|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig,
+        Assembly-CSharp
+    - Name: _effectType
+      Entry: 3
+      Data: 1
+    - Name: _effectValue
+      Entry: 4
+      Data: 4.71565962
+    - Name: _statConfig
+      Entry: 7
+      Data: 28|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig+StatModificationConfig,
+        Assembly-CSharp
+    - Name: _targetStat
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 14
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 29|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 166.650742
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 30|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 24
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 7
+      Data: 31|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig,
+        Assembly-CSharp
+    - Name: _effectType
+      Entry: 3
+      Data: 0
+    - Name: _effectValue
+      Entry: 4
+      Data: 7.405602
+    - Name: _statConfig
+      Entry: 7
+      Data: 32|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig+StatModificationConfig,
+        Assembly-CSharp
+    - Name: _targetStat
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 16
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 33|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -3
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 187.805466
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 34|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 7
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 7
+      Data: 35|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.GateConfig,
+        Assembly-CSharp
+    - Name: _effectType
+      Entry: 3
+      Data: 0
+    - Name: _effectValue
+      Entry: 4
+      Data: -1.38684988
+    - Name: _isEnhanceable
+      Entry: 5
+      Data: true
+    - Name: _step
+      Entry: 4
+      Data: 0.02
+    - Name: _statConfig
+      Entry: 7
+      Data: 36|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.GateConfig+StatModificationConfig,
+        Assembly-CSharp
+    - Name: _targetStat
+      Entry: 3
+      Data: 21
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 18
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 37|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -3
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 207.934616
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 38|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 24
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 7
+      Data: 39|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig,
+        Assembly-CSharp
+    - Name: _effectType
+      Entry: 3
+      Data: 1
+    - Name: _effectValue
+      Entry: 4
+      Data: 3.11809754
+    - Name: _statConfig
+      Entry: 7
+      Data: 40|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig+StatModificationConfig,
+        Assembly-CSharp
+    - Name: _targetStat
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 20
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 41|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -3
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 226.551865
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 42|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 24
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 7
+      Data: 43|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig,
+        Assembly-CSharp
+    - Name: _effectType
+      Entry: 3
+      Data: 1
+    - Name: _effectValue
+      Entry: 4
+      Data: 2.763055
+    - Name: _statConfig
+      Entry: 7
+      Data: 44|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig+StatModificationConfig,
+        Assembly-CSharp
+    - Name: _targetStat
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 22
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 45|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -3
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 245.376175
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 46|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 7
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 7
+      Data: 47|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.GateConfig,
+        Assembly-CSharp
+    - Name: _effectType
+      Entry: 3
+      Data: 0
+    - Name: _effectValue
+      Entry: 4
+      Data: 2.83186555
+    - Name: _isEnhanceable
+      Entry: 5
+      Data: true
+    - Name: _step
+      Entry: 4
+      Data: 0.02
+    - Name: _statConfig
+      Entry: 7
+      Data: 48|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.GateConfig+StatModificationConfig,
+        Assembly-CSharp
+    - Name: _targetStat
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 24
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 49|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -3
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 266.527344
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 50|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 24
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 7
+      Data: 51|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig,
+        Assembly-CSharp
+    - Name: _effectType
+      Entry: 3
+      Data: 0
+    - Name: _effectValue
+      Entry: 4
+      Data: 8.581757
+    - Name: _statConfig
+      Entry: 7
+      Data: 52|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig+StatModificationConfig,
+        Assembly-CSharp
+    - Name: _targetStat
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 26
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 53|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -3
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 286.747742
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 54|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 24
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 7
+      Data: 55|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig,
+        Assembly-CSharp
+    - Name: _effectType
+      Entry: 3
+      Data: 1
+    - Name: _effectValue
+      Entry: 4
+      Data: 3.40831113
+    - Name: _statConfig
+      Entry: 7
+      Data: 56|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig+StatModificationConfig,
+        Assembly-CSharp
+    - Name: _targetStat
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 28
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 57|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 305.880981
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 58|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 24
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 7
+      Data: 59|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig,
+        Assembly-CSharp
+    - Name: _effectType
+      Entry: 3
+      Data: 0
+    - Name: _effectValue
+      Entry: 4
+      Data: 9.876657
+    - Name: _statConfig
+      Entry: 7
+      Data: 60|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.BubbleConfig+StatModificationConfig,
+        Assembly-CSharp
+    - Name: _targetStat
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 61|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.01
+    - Name: 
+      Entry: 4
+      Data: 315
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 62|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 14
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 63|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.PostFinishFarmingArea,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 320
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 64|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 15
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: _gridHeight
+      Entry: 3
+      Data: 5
+    - Name: _stoneSpacing
+      Entry: 4
+      Data: 4
+    - Name: _areaOffset
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _cashStones
+      Entry: 7
+      Data: 65|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 15
+    - Name: 
+      Entry: 7
+      Data: 66|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -3.9
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 320
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 67|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 2
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 60
+    - Name: _rewards
+      Entry: 7
+      Data: 68|_Project.Scripts.Gameplay.Features.RewardFeature.Rewards, Assembly-CSharp
+    - Name: _rewards
+      Entry: 7
+      Data: 69|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.RewardFeature.IReward,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 70|_Project.Scripts.Gameplay.Features.RewardFeature.CurrencyReward, Assembly-CSharp
+    - Name: _currencyType
+      Entry: 3
+      Data: 4
+    - Name: _amount
+      Entry: 7
+      Data: 71|_Project.Scripts.Gameplay.Features.RewardFeature.RewardValue, Assembly-CSharp
+    - Name: _fixedValue
+      Entry: 3
+      Data: 5
+    - Name: _rangeValue
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isRange
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 72|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 320
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 73|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 2
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 60
+    - Name: _rewards
+      Entry: 7
+      Data: 74|_Project.Scripts.Gameplay.Features.RewardFeature.Rewards, Assembly-CSharp
+    - Name: _rewards
+      Entry: 7
+      Data: 75|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.RewardFeature.IReward,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 76|_Project.Scripts.Gameplay.Features.RewardFeature.CurrencyReward, Assembly-CSharp
+    - Name: _currencyType
+      Entry: 3
+      Data: 4
+    - Name: _amount
+      Entry: 7
+      Data: 77|_Project.Scripts.Gameplay.Features.RewardFeature.RewardValue, Assembly-CSharp
+    - Name: _fixedValue
+      Entry: 3
+      Data: 5
+    - Name: _rangeValue
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isRange
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 78|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3.9
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 320
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 79|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 2
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 60
+    - Name: _rewards
+      Entry: 7
+      Data: 80|_Project.Scripts.Gameplay.Features.RewardFeature.Rewards, Assembly-CSharp
+    - Name: _rewards
+      Entry: 7
+      Data: 81|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.RewardFeature.IReward,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 82|_Project.Scripts.Gameplay.Features.RewardFeature.CurrencyReward, Assembly-CSharp
+    - Name: _currencyType
+      Entry: 3
+      Data: 4
+    - Name: _amount
+      Entry: 7
+      Data: 83|_Project.Scripts.Gameplay.Features.RewardFeature.RewardValue, Assembly-CSharp
+    - Name: _fixedValue
+      Entry: 3
+      Data: 5
+    - Name: _rangeValue
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isRange
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 84|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -3.9
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 324
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 85|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 2
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 110
+    - Name: _rewards
+      Entry: 7
+      Data: 86|_Project.Scripts.Gameplay.Features.RewardFeature.Rewards, Assembly-CSharp
+    - Name: _rewards
+      Entry: 7
+      Data: 87|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.RewardFeature.IReward,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 88|_Project.Scripts.Gameplay.Features.RewardFeature.CurrencyReward, Assembly-CSharp
+    - Name: _currencyType
+      Entry: 3
+      Data: 4
+    - Name: _amount
+      Entry: 7
+      Data: 89|_Project.Scripts.Gameplay.Features.RewardFeature.RewardValue, Assembly-CSharp
+    - Name: _fixedValue
+      Entry: 3
+      Data: 10
+    - Name: _rangeValue
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isRange
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 90|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 324
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 91|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 2
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 110
+    - Name: _rewards
+      Entry: 7
+      Data: 92|_Project.Scripts.Gameplay.Features.RewardFeature.Rewards, Assembly-CSharp
+    - Name: _rewards
+      Entry: 7
+      Data: 93|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.RewardFeature.IReward,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 94|_Project.Scripts.Gameplay.Features.RewardFeature.CurrencyReward, Assembly-CSharp
+    - Name: _currencyType
+      Entry: 3
+      Data: 4
+    - Name: _amount
+      Entry: 7
+      Data: 95|_Project.Scripts.Gameplay.Features.RewardFeature.RewardValue, Assembly-CSharp
+    - Name: _fixedValue
+      Entry: 3
+      Data: 10
+    - Name: _rangeValue
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isRange
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 96|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3.9
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 324
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 97|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 2
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 110
+    - Name: _rewards
+      Entry: 7
+      Data: 98|_Project.Scripts.Gameplay.Features.RewardFeature.Rewards, Assembly-CSharp
+    - Name: _rewards
+      Entry: 7
+      Data: 99|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.RewardFeature.IReward,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 100|_Project.Scripts.Gameplay.Features.RewardFeature.CurrencyReward,
+        Assembly-CSharp
+    - Name: _currencyType
+      Entry: 3
+      Data: 4
+    - Name: _amount
+      Entry: 7
+      Data: 101|_Project.Scripts.Gameplay.Features.RewardFeature.RewardValue, Assembly-CSharp
+    - Name: _fixedValue
+      Entry: 3
+      Data: 10
+    - Name: _rangeValue
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isRange
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 102|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -3.9
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 328
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 103|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 2
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 160
+    - Name: _rewards
+      Entry: 7
+      Data: 104|_Project.Scripts.Gameplay.Features.RewardFeature.Rewards, Assembly-CSharp
+    - Name: _rewards
+      Entry: 7
+      Data: 105|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.RewardFeature.IReward,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 106|_Project.Scripts.Gameplay.Features.RewardFeature.CurrencyReward,
+        Assembly-CSharp
+    - Name: _currencyType
+      Entry: 3
+      Data: 4
+    - Name: _amount
+      Entry: 7
+      Data: 107|_Project.Scripts.Gameplay.Features.RewardFeature.RewardValue, Assembly-CSharp
+    - Name: _fixedValue
+      Entry: 3
+      Data: 15
+    - Name: _rangeValue
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isRange
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 108|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 328
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 109|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 2
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 160
+    - Name: _rewards
+      Entry: 7
+      Data: 110|_Project.Scripts.Gameplay.Features.RewardFeature.Rewards, Assembly-CSharp
+    - Name: _rewards
+      Entry: 7
+      Data: 111|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.RewardFeature.IReward,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 112|_Project.Scripts.Gameplay.Features.RewardFeature.CurrencyReward,
+        Assembly-CSharp
+    - Name: _currencyType
+      Entry: 3
+      Data: 4
+    - Name: _amount
+      Entry: 7
+      Data: 113|_Project.Scripts.Gameplay.Features.RewardFeature.RewardValue, Assembly-CSharp
+    - Name: _fixedValue
+      Entry: 3
+      Data: 15
+    - Name: _rangeValue
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isRange
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 114|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3.9
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 328
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 115|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 2
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 160
+    - Name: _rewards
+      Entry: 7
+      Data: 116|_Project.Scripts.Gameplay.Features.RewardFeature.Rewards, Assembly-CSharp
+    - Name: _rewards
+      Entry: 7
+      Data: 117|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.RewardFeature.IReward,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 118|_Project.Scripts.Gameplay.Features.RewardFeature.CurrencyReward,
+        Assembly-CSharp
+    - Name: _currencyType
+      Entry: 3
+      Data: 4
+    - Name: _amount
+      Entry: 7
+      Data: 119|_Project.Scripts.Gameplay.Features.RewardFeature.RewardValue, Assembly-CSharp
+    - Name: _fixedValue
+      Entry: 3
+      Data: 15
+    - Name: _rangeValue
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isRange
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 120|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -3.9
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 332
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 121|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 2
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 210
+    - Name: _rewards
+      Entry: 7
+      Data: 122|_Project.Scripts.Gameplay.Features.RewardFeature.Rewards, Assembly-CSharp
+    - Name: _rewards
+      Entry: 7
+      Data: 123|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.RewardFeature.IReward,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 124|_Project.Scripts.Gameplay.Features.RewardFeature.CurrencyReward,
+        Assembly-CSharp
+    - Name: _currencyType
+      Entry: 3
+      Data: 4
+    - Name: _amount
+      Entry: 7
+      Data: 125|_Project.Scripts.Gameplay.Features.RewardFeature.RewardValue, Assembly-CSharp
+    - Name: _fixedValue
+      Entry: 3
+      Data: 20
+    - Name: _rangeValue
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isRange
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 126|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 332
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 127|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 2
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 210
+    - Name: _rewards
+      Entry: 7
+      Data: 128|_Project.Scripts.Gameplay.Features.RewardFeature.Rewards, Assembly-CSharp
+    - Name: _rewards
+      Entry: 7
+      Data: 129|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.RewardFeature.IReward,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 130|_Project.Scripts.Gameplay.Features.RewardFeature.CurrencyReward,
+        Assembly-CSharp
+    - Name: _currencyType
+      Entry: 3
+      Data: 4
+    - Name: _amount
+      Entry: 7
+      Data: 131|_Project.Scripts.Gameplay.Features.RewardFeature.RewardValue, Assembly-CSharp
+    - Name: _fixedValue
+      Entry: 3
+      Data: 20
+    - Name: _rangeValue
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isRange
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 132|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3.9
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 332
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 133|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 2
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 210
+    - Name: _rewards
+      Entry: 7
+      Data: 134|_Project.Scripts.Gameplay.Features.RewardFeature.Rewards, Assembly-CSharp
+    - Name: _rewards
+      Entry: 7
+      Data: 135|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.RewardFeature.IReward,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 136|_Project.Scripts.Gameplay.Features.RewardFeature.CurrencyReward,
+        Assembly-CSharp
+    - Name: _currencyType
+      Entry: 3
+      Data: 4
+    - Name: _amount
+      Entry: 7
+      Data: 137|_Project.Scripts.Gameplay.Features.RewardFeature.RewardValue, Assembly-CSharp
+    - Name: _fixedValue
+      Entry: 3
+      Data: 20
+    - Name: _rangeValue
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isRange
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 138|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -3.9
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 336
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 139|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 2
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 260
+    - Name: _rewards
+      Entry: 7
+      Data: 140|_Project.Scripts.Gameplay.Features.RewardFeature.Rewards, Assembly-CSharp
+    - Name: _rewards
+      Entry: 7
+      Data: 141|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.RewardFeature.IReward,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 142|_Project.Scripts.Gameplay.Features.RewardFeature.CurrencyReward,
+        Assembly-CSharp
+    - Name: _currencyType
+      Entry: 3
+      Data: 4
+    - Name: _amount
+      Entry: 7
+      Data: 143|_Project.Scripts.Gameplay.Features.RewardFeature.RewardValue, Assembly-CSharp
+    - Name: _fixedValue
+      Entry: 3
+      Data: 25
+    - Name: _rangeValue
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isRange
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 144|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 336
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 145|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 2
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 260
+    - Name: _rewards
+      Entry: 7
+      Data: 146|_Project.Scripts.Gameplay.Features.RewardFeature.Rewards, Assembly-CSharp
+    - Name: _rewards
+      Entry: 7
+      Data: 147|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.RewardFeature.IReward,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 148|_Project.Scripts.Gameplay.Features.RewardFeature.CurrencyReward,
+        Assembly-CSharp
+    - Name: _currencyType
+      Entry: 3
+      Data: 4
+    - Name: _amount
+      Entry: 7
+      Data: 149|_Project.Scripts.Gameplay.Features.RewardFeature.RewardValue, Assembly-CSharp
+    - Name: _fixedValue
+      Entry: 3
+      Data: 25
+    - Name: _rangeValue
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isRange
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 150|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3.9
+    - Name: 
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 4
+      Data: 336
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 151|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 2
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 260
+    - Name: _rewards
+      Entry: 7
+      Data: 152|_Project.Scripts.Gameplay.Features.RewardFeature.Rewards, Assembly-CSharp
+    - Name: _rewards
+      Entry: 7
+      Data: 153|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.RewardFeature.IReward,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 154|_Project.Scripts.Gameplay.Features.RewardFeature.CurrencyReward,
+        Assembly-CSharp
+    - Name: _currencyType
+      Entry: 3
+      Data: 4
+    - Name: _amount
+      Entry: 7
+      Data: 155|_Project.Scripts.Gameplay.Features.RewardFeature.RewardValue, Assembly-CSharp
+    - Name: _fixedValue
+      Entry: 3
+      Data: 25
+    - Name: _rangeValue
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isRange
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 156|_Project.Scripts.Gameplay.Features.LevelFeature.Configs.LevelObjectData,
+        Assembly-CSharp
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 343
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _customData
+      Entry: 7
+      Data: 157|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 9
+    - Name: _interactiveObjectPrefab
+      Entry: 6
+      Data: 
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RoadIndex
+      Entry: 3
+      Data: 30
+    - Name: View
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _levelPrefab: {fileID: 7290915969459883921, guid: 88f0d180b8153da4789033460339fd90, type: 3}
+  _levelMode: 5
+  _defenseModeConfig:
+    _waves:
+    - _enemies:
+      - _type: 23
+        _spawnTime: 0
+      - _type: 23
+        _spawnTime: 1
+      - _type: 23
+        _spawnTime: 2
+      - _type: 23
+        _spawnTime: 3
+      - _type: 23
+        _spawnTime: 4.5
+      - _type: 23
+        _spawnTime: 5.5
+      - _type: 23
+        _spawnTime: 6.5
+      - _type: 23
+        _spawnTime: 7.5
+      _delayBeforeStart: 1
+    - _enemies:
+      - _type: 23
+        _spawnTime: 0
+      - _type: 23
+        _spawnTime: 0.5
+      - _type: 23
+        _spawnTime: 1
+      - _type: 23
+        _spawnTime: 2
+      - _type: 23
+        _spawnTime: 2.5
+      - _type: 23
+        _spawnTime: 3.5
+      - _type: 23
+        _spawnTime: 4.5
+      - _type: 23
+        _spawnTime: 5.5
+      - _type: 23
+        _spawnTime: 6.5
+      - _type: 23
+        _spawnTime: 7.5
+      - _type: 23
+        _spawnTime: 8.5
+      - _type: 23
+        _spawnTime: 9.5
+      _delayBeforeStart: 1
+    - _enemies:
+      - _type: 23
+        _spawnTime: 0
+      - _type: 23
+        _spawnTime: 0.4
+      - _type: 23
+        _spawnTime: 0.8
+      - _type: 23
+        _spawnTime: 1.5
+      - _type: 23
+        _spawnTime: 2
+      - _type: 23
+        _spawnTime: 3
+      - _type: 23
+        _spawnTime: 4
+      - _type: 23
+        _spawnTime: 5
+      - _type: 23
+        _spawnTime: 6
+      - _type: 23
+        _spawnTime: 7
+      - _type: 23
+        _spawnTime: 8
+      - _type: 23
+        _spawnTime: 9
+      - _type: 23
+        _spawnTime: 10
+      - _type: 23
+        _spawnTime: 11
+      - _type: 23
+        _spawnTime: 12
+      _delayBeforeStart: 1
+  _mortarStrikes: []

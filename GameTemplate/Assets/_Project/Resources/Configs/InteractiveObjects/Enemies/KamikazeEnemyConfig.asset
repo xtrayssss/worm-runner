@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ef9c568068440598efe516b7ba87bc6, type: 3}
+  m_Name: KamikazeEnemyConfig
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 7722406878008747946, guid: 5e13a978cc8a2d94a858511b146bccc9, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _interactiveObjectData
+      Entry: 7
+      Data: 0|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 23
+    - Name: _interactiveObjectPrefab
+      Entry: 10
+      Data: 0
+    - Name: _maxHealth
+      Entry: 4
+      Data: 40
+    - Name: _rewards
+      Entry: 7
+      Data: 1|_Project.Scripts.Gameplay.Features.RewardFeature.Rewards, Assembly-CSharp
+    - Name: _rewards
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[_Project.Scripts.Gameplay.Features.RewardFeature.IReward,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|_Project.Scripts.Gameplay.Features.RewardFeature.CurrencyReward, Assembly-CSharp
+    - Name: _currencyType
+      Entry: 3
+      Data: 4
+    - Name: _amount
+      Entry: 7
+      Data: 4|_Project.Scripts.Gameplay.Features.RewardFeature.RewardValue, Assembly-CSharp
+    - Name: _fixedValue
+      Entry: 3
+      Data: 5
+    - Name: _rangeValue
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _isRange
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 6
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 7
+      Data: 5|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.EnemyConfig,
+        Assembly-CSharp
+    - Name: _riflemanEnemyConfig
+      Entry: 6
+      Data: 
+    - Name: _kamikazeEnemyConfig
+      Entry: 7
+      Data: 6|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.KamikazeEnemyConfig,
+        Assembly-CSharp
+    - Name: _explosionRadius
+      Entry: 4
+      Data: 5
+    - Name: _explosionDamage
+      Entry: 4
+      Data: -5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _machineGunnerEnemyConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

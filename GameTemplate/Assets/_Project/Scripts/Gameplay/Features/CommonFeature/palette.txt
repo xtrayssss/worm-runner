@@ -1,0 +1,2 @@
+﻿1FFF00 - green
+FF0000 - red

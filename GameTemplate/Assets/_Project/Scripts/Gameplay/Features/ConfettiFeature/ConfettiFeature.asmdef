@@ -1,0 +1,7 @@
+{
+  "name": "ConfettiFeature",
+  "references": [
+    "AudioFeature",
+    "CommonFeature.Services"
+  ]
+}

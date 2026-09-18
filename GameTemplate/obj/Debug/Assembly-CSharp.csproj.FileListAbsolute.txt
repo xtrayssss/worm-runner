@@ -1,0 +1,2 @@
+D:\games\Unity\Worm-Runner\GameTemplate\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+D:\games\Unity\Worm-Runner\GameTemplate\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

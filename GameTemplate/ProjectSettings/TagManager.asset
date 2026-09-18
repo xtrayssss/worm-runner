@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Missile
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - MemberProjectile
+  - Member
+  - 
+  - EnemyProjectile
+  - InteractiveObject
+  - FinishTrigger
+  - Road
+  - DamagePopup
+  - BonusChest
+  - Crowd
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Shadows
+    uniqueID: 3143948001
+    locked: 0
+  - name: Ground
+    uniqueID: 3802109655
+    locked: 0
+  - name: Road
+    uniqueID: 334980823
+    locked: 0
+  - name: SquadSector
+    uniqueID: 182941709
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Environment
+    uniqueID: 3195455585
+    locked: 0
+  - name: OnRoad
+    uniqueID: 2241768537
+    locked: 0
+  - name: Crowd
+    uniqueID: 3454747659
+    locked: 0
+  - name: Effects
+    uniqueID: 1146751883
+    locked: 0
+  - name: Soul
+    uniqueID: 111591115
+    locked: 0
+  - name: UI
+    uniqueID: 427868773
+    locked: 0

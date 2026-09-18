@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bf33cb4f4f374ebaa6a36ba20e497da2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _canvas: {instanceID: 0}
+  - _adPanel: {instanceID: 0}
+  - _titleText: {instanceID: 0}
+  - _timerText: {instanceID: 0}
+  - _closeButton: {instanceID: 0}
+  - _adImage: {instanceID: 0}
+  - _progressBar: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

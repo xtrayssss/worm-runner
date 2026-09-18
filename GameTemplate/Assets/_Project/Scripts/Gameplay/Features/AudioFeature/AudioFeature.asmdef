@@ -1,0 +1,20 @@
+{
+    "name": "AudioFeature",
+    "rootNamespace": "",
+    "references": [
+        "CommonFeature.Services",
+        "PrimeTween.Runtime",
+        "GamePush",
+        "SaveFeature",
+        "LoggerFeature"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

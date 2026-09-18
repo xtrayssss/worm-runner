@@ -1,0 +1,19 @@
+{
+    "name": "StateMachineFeature",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a709227297f84cbc899e45aeaedd1f7f",
+        "GUID:3377deebfb0acde45876d12c6e3d27cc",
+        "GUID:b889f9e71b1242078e00fc3a17ce2de9",
+        "FeatureTree"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

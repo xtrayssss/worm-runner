@@ -1,0 +1,47 @@
+{
+    "name": "EditorToolsFeature",
+    "rootNamespace": "",
+    "references": [
+        "GUID:343deaaf83e0cee4ca978e7df0b80d21",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:478a2357cc57436488a56e564b08d223",
+        "GUID:643e7e0afda344b99dc2b05f75f54f82",
+        "GUID:757126b397fe4722bf8110010d885e04",
+        "GUID:2e77701fe0ceda44fb763f03ee704c37",
+        "GUID:8565cd512670409e9d65ca80468ab99b",
+        "GUID:85255f4d3f384ef48e2d00d946462814",
+        "GUID:43aab4a50a5839e44af6c24ac5006688"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "Android",
+        "EmbeddedLinux",
+        "GameCoreScarlett",
+        "GameCoreXboxOne",
+        "iOS",
+        "LinuxStandalone64",
+        "CloudRendering",
+        "macOSStandalone",
+        "PS4",
+        "PS5",
+        "QNX",
+        "Stadia",
+        "Switch",
+        "tvOS",
+        "WSA",
+        "VisionOS",
+        "WebGL",
+        "WindowsStandalone32",
+        "WindowsStandalone64",
+        "XboxOne"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "Unity.Localization.ThirdParty.Editor.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

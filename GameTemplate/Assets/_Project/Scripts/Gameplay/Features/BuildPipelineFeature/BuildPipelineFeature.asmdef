@@ -1,0 +1,19 @@
+{
+    "name": "BuildPipelineFeature",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8167d48ca89f28545843000614de54fd",
+        "GUID:e060415cdf724429a44de050ffca2266"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

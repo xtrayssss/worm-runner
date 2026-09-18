@@ -1,0 +1,21 @@
+{
+    "name": "TutorialFeature",
+    "rootNamespace": "",
+    "references": [
+        "GUID:757126b397fe4722bf8110010d885e04",
+        "GUID:85255f4d3f384ef48e2d00d946462814",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:80ecb87cae9c44d19824e70ea7229748",
+        "GUID:791975544f0d45a697988171af262343",
+        "GUID:d912e14da91f4ced94c0c23101e56e96"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

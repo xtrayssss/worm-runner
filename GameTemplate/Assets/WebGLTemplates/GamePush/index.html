@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>{{{ PRODUCT_NAME }}}</title>
+  <link rel="stylesheet" href="TemplateData/style.css">
+
+  <script>
+    const overlayBackgroundColor = "{{{ OVERLAY_BACKGROUND_COLOR.replace(/ /g, '') }}}";
+    const progressBarFillColor = "{{{ PROGRESS_BAR_FILL_COLOR.replace(/ /g, '') }}}";
+    const progressBarBackgroundColor = "{{{ PROGRESS_BAR_BACKGROUND_COLOR.replace(/ /g, '') }}}";
+    const progressBarBorderColor = "{{{ PROGRESS_BAR_BORDER_COLOR.replace(/ /g, '') }}}";
+    const backgroundFileName = "{{{ BACKGROUND_IMAGE_FILE.replace(/ /g, '') }}}";
+  </script>
+
+<style>
+  /* Убираем выделение по нажатию клавиш */
+  canvas:focus {
+      outline: none;
+  }
+
+  html, body {
+      /* Убираем отступы */
+      padding: 0;
+      margin: 0;
+      /* Отключаем скролл и лонгтап на IOS */
+      overflow: hidden;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      /* Ставим высоту на 100% */
+      height: 100%;
+  }
+</style>
+
+</head>
+
+<body class="{{{ SPLASH_SCREEN_STYLE.toLowerCase() }}}">
+  <div id="unity-container" class="unity-desktop">
+    <canvas id="unity-canvas"></canvas>
+  </div>
+  <div id="loading-cover" style="display:none;">
+    <div id="unity-loading-bar">
+      <div id="unity-logo"><img src="logo.png"></div>
+      <div id="unity-progress-bar-empty">
+        <div id="unity-progress-bar-full"></div>
+      </div>
+    </div>
+    <div class="spinner"></div>
+  </div>
+
+  <script>
+    const buildUrl = "Build";
+    const loaderUrl = buildUrl + "/{{{ LOADER_FILENAME }}}";
+    const config = {
+      dataUrl: buildUrl + "/{{{ DATA_FILENAME }}}",
+      workerUrl: buildUrl + "/{{{ DATA_FILENAME }}}",
+      frameworkUrl: buildUrl + "/{{{ FRAMEWORK_FILENAME }}}",
+      codeUrl: buildUrl + "/{{{ CODE_FILENAME }}}",
+      // #if MEMORY_FILENAME
+      //   memoryUrl: buildUrl + "/{{{ MEMORY_FILENAME }}}",
+      // #endif
+      // #if SYMBOLS_FILENAME
+      //   symbolsUrl: buildUrl + "/{{{ SYMBOLS_FILENAME }}}",
+      // #endif
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "{{{ COMPANY_NAME }}}",
+      productName: "{{{ PRODUCT_NAME }}}",
+      productVersion: "{{{ PRODUCT_VERSION }}}",
+    };
+
+    const container = document.querySelector("#unity-container");
+    const canvas = document.querySelector("#unity-canvas");
+    const loadingCover = document.querySelector("#loading-cover");
+    const progressBarEmpty = document.querySelector("#unity-progress-bar-empty");
+    const progressBarFull = document.querySelector("#unity-progress-bar-full");
+    const spinner = document.querySelector('.spinner');
+
+    // Применяем пользовательские цвета если они заданы
+    if (overlayBackgroundColor !== " " && overlayBackgroundColor !== ""){
+      loadingCover.style.background = overlayBackgroundColor;
+      canvas.style.background = overlayBackgroundColor;
+    }
+
+    if (progressBarFillColor !== " " && progressBarFillColor !== ""){
+      progressBarFull.style.background = progressBarFillColor;
+    }
+
+    if (progressBarBackgroundColor !== " " && progressBarBackgroundColor !== ""){
+      progressBarEmpty.style.background = progressBarBackgroundColor;
+    }
+
+    if (progressBarBorderColor !== " " && progressBarBorderColor !== ""){
+      progressBarEmpty.style.borderColor = progressBarBorderColor;
+    }
+
+    if (backgroundFileName !== " " && backgroundFileName !== ""){
+      // Используем backgroundFileName как паттерн
+      const beforeStyle = document.createElement('style');
+      beforeStyle.textContent = `
+        #loading-cover::before {
+          background-image: url('${backgroundFileName}') !important;
+        }
+      `;
+      document.head.appendChild(beforeStyle);
+    }
+
+    if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+      container.className = "unity-mobile";
+    }
+
+    loadingCover.style.display = "";
+
+    // Выключаем появление меню при правом клике мыши
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    // Возвращаем фокус, если кликнули по экрану
+    function FocusGame() {
+        window.focus();
+        canvas.focus();
+    }
+
+    window.addEventListener('pointerdown', () => {
+        FocusGame();
+    });
+    window.addEventListener('touchstart', () => {
+        FocusGame();
+    });
+
+    const unityLoader = document.createElement("script");
+    unityLoader.src = loaderUrl;
+    unityLoader.onload = async () => {
+      createUnityInstance(canvas, config, (progress) => {
+        spinner.style.display = "none";
+        progressBarEmpty.style.display = "";
+        progressBarFull.style.width = `${100 * progress}%`;
+      }).then((unityInstance) => {
+        window.unityInstance = unityInstance;
+        loadingCover.style.display = "none";
+      }).catch((message) => {
+        alert(message);
+      });
+    };
+    document.body.appendChild(unityLoader);
+
+    document.addEventListener("pointerdown", () => {
+      container.focus();
+      window.focus();
+      canvas.focus();
+    });
+
+  </script>
+</body>
+
+</html>

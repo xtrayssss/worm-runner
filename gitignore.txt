@@ -1,0 +1,85 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Unity Project Files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+
+# MemoryCaptures can get excessive in size.
+# They also could contain extremely sensitive data
+/[Mm]emoryCaptures/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.DotSettings.user
+*.csproj.DotSettings
+Assets/Plugins/Editor/JetBrains*
+
+# Visual Studio / MonoDevelop
+[Ee]xported[Oo]bj/
+.vs/
+/*.userprefs
+/*.csproj
+/*.pidb
+/*.suo
+/*.sln
+/*.user
+/*.unityproj
+/*.booproj
+.vsconfig
+
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics 
+crashlytics-build.properties
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+
+[Aa]ssets/AssetStoreTools*
+
+# ProBuilder
+[Pp]roBuilder*
+
+[Aa]ssets/TextMesh*Pro/
+
+*.bak
+*.backup
+*~
+/GameTemplate/Assets/_Project/Audio/AudioClips/SFX/Shoot

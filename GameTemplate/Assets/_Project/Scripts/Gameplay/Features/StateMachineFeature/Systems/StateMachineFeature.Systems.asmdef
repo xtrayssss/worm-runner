@@ -1,0 +1,17 @@
+{
+    "name": "StateMachineFeature.Systems",
+    "rootNamespace": "",
+    "references": [
+        "Scellecs.Morpeh",
+        "CoreStateMachine"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

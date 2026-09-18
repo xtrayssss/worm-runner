@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5d87d62d424155ab05d9d42a55e5da, type: 3}
+  m_Name: Chapter_Hills
+  m_EditorClassIdentifier: 
+  _biome:
+    _fogColor: {r: 0.5529412, g: 0.74509805, b: 0.3529412, a: 1}
+    _fogParticleAlpha: 0.37254903
+    _roadColor: {r: 0.91764706, g: 1, b: 0.84705883, a: 1}
+    _groundSprite: {fileID: 21300000, guid: 366ca83b0eb05a840a185707b87d3296, type: 3}
+  _levels:
+  - {fileID: 11400000, guid: 9227cd128628a74408172a9af3e0709a, type: 2}
+  - {fileID: 11400000, guid: a4bb4cf4c28214a44a91d099ae3e2fe5, type: 2}
+  - {fileID: 11400000, guid: c2a8f02fde14ff94aaab38a2a144fafb, type: 2}
+  - {fileID: 11400000, guid: 69645f7f0d4fc0149950c694fc6d67fe, type: 2}
+  - {fileID: 11400000, guid: d4400ca24377e8247a6c710c365dd23f, type: 2}

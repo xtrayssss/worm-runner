@@ -1,0 +1,816 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.42f1 (2dcb6a0abc42) revision 3001194'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 7561 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\games\Unity\Unity Files (Dont Touch)\2021.3.9f1\2022.3.42f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/games/Unity/worm-runner-public/GameTemplate
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54981
+Successfully changed project path to: D:/games/Unity/worm-runner-public/GameTemplate
+D:/games/Unity/worm-runner-public/GameTemplate
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10816]  Target information:
+
+Player connection [10816]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3046584455 [EditorId] 3046584455 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J7U7MAN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10816]  * "[IP] 192.168.56.2 [Port] 0 [Flags] 2 [Guid] 3046584455 [EditorId] 3046584455 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J7U7MAN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10816]  * "[IP] 192.168.43.161 [Port] 0 [Flags] 2 [Guid] 3046584455 [EditorId] 3046584455 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J7U7MAN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10816] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10816] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 33.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
+[Subsystems] Discovering subsystems at path D:/games/Unity/Unity Files (Dont Touch)/2021.3.9f1/2022.3.42f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/games/Unity/worm-runner-public/GameTemplate/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) Graphics (ID=0x15e7)
+    Vendor:   ATI
+    VRAM:     3780 MB
+    Driver:   31.0.12018.5
+Initialize mono
+Mono path[0] = 'D:/games/Unity/Unity Files (Dont Touch)/2021.3.9f1/2022.3.42f1/Editor/Data/Managed'
+Mono path[1] = 'D:/games/Unity/Unity Files (Dont Touch)/2021.3.9f1/2022.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/games/Unity/Unity Files (Dont Touch)/2021.3.9f1/2022.3.42f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/games/Unity/Unity Files (Dont Touch)/2021.3.9f1/2022.3.42f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/games/Unity/Unity Files (Dont Touch)/2021.3.9f1/2022.3.42f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/games/Unity/Unity Files (Dont Touch)/2021.3.9f1/2022.3.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007864 seconds.
+- Loaded All Assemblies, in  0.358 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 259 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.600 seconds
+Domain Reload Profiling: 957ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (128ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (601ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (547ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (369ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Assembly 'Library/ScriptAssemblies/Assembly-CSharp.dll' will not be loaded due to errors:
+Unable to resolve reference 'ExcludeFromBuild'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Assembly 'Library/ScriptAssemblies/Assembly-CSharp-Editor.dll' will not be loaded due to errors:
+Reference has errors 'Assembly-CSharp'.
+Assembly 'Library/ScriptAssemblies/BuildPipelineFeature.dll' will not be loaded due to errors:
+Unable to resolve reference 'ExcludeFromBuildEditor'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.524 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+There were some problems trying to locate where Odin was installed, please read the messages below.
+- Odin was not found in its default location: 'Assets/Plugins/Sirenix/'.
+- No SirenixPathLookupScriptableObject with the Guid: '08379ccefc05200459f90a1c0711a340' was found.
+- We were unable to find Odin elsewhere. Please re-import Odin and make sure the OdinPathLookup.asset and OdinPathLookup.asset.meta files are included.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Sirenix.Utilities.SirenixAssetPaths:.cctor () (at C:/Sirenix/Sirenix Solution/Sirenix.Utilities/Misc/SirenixAssetPaths.cs:166)
+Sirenix.Utilities.SirenixEditorConfigAttribute:.ctor () (at C:/Sirenix/Sirenix Solution/Sirenix.Utilities/Misc/SirenixEditorConfigAttribute.cs:22)
+System.MonoCustomAttrs:GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider,System.Type,bool)
+System.MonoCustomAttrs:GetCustomAttributes (System.Reflection.ICustomAttributeProvider,System.Type,bool)
+System.RuntimeType:GetCustomAttributes (System.Type,bool)
+Sirenix.Utilities.TypeExtensions:GetCustomAttribute<Sirenix.Utilities.GlobalConfigAttribute> (System.Type,bool) (at C:/Sirenix/Sirenix Solution/Sirenix.Utilities/Extensions/TypeExtensions.cs:1338)
+Sirenix.Utilities.TypeExtensions:GetCustomAttribute<Sirenix.Utilities.GlobalConfigAttribute> (System.Type) (at C:/Sirenix/Sirenix Solution/Sirenix.Utilities/Extensions/TypeExtensions.cs:1349)
+Sirenix.Utilities.GlobalConfig`1<Sirenix.OdinInspector.Editor.OdinVisualDesignerConfig>:get_ConfigAttribute () (at C:/Sirenix/Sirenix Solution/Sirenix.Utilities/Misc/GlobalConfig.cs:58)
+Sirenix.Utilities.GlobalConfig`1<Sirenix.OdinInspector.Editor.OdinVisualDesignerConfig>:get_Instance () (at C:/Sirenix/Sirenix Solution/Sirenix.Utilities/Misc/GlobalConfig.cs:80)
+Sirenix.OdinInspector.Editor.Internal.OVDFFileWatcher:.cctor () (at C:/Sirenix/Sirenix Solution/Sirenix.OdinInspector.Editor/TypeDesigner/Internal/Editor/Windows/OVDFFileWatcher.cs:54)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: C:/Sirenix/Sirenix Solution/Sirenix.Utilities/Misc/SirenixAssetPaths.cs Line: 166)
+
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+DefineAsset postprocess failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Scellecs.Morpeh.Utils.Editor.DefineAsset:Initialize () (at D:/games/Bag-Hunter/Bag-Hunter/Library/PackageCache/com.scellecs.morpeh@9f63693847/Unity/Utils/Editor/DefineAsset.cs:80)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: D:/games/Bag-Hunter/Bag-Hunter/Library/PackageCache/com.scellecs.morpeh@9f63693847/Unity/Utils/Editor/DefineAsset.cs Line: 80)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.757 seconds
+Domain Reload Profiling: 3286ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (1225ms)
+		LoadAssemblies (961ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (360ms)
+			TypeCache.Refresh (293ms)
+				TypeCache.ScanAssembly (257ms)
+			ScanForSourceGeneratedMonoScriptInfo (48ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1759ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1513ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (244ms)
+			ProcessInitializeOnLoadAttributes (1029ms)
+			ProcessInitializeOnLoadMethodAttributes (184ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 22.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5909 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (142.9 KB). Loaded Objects now: 6586.
+Memory consumption went from 257.4 MB to 257.3 MB.
+Total: 44.273400 ms (FindLiveObjects: 4.353600 ms CreateObjectMapping: 0.600000 ms MarkObjects: 29.376500 ms  DeleteObjects: 9.935500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/EntityViewProvider.cs: c6b75b4262c2815733eccfe0ef6ab3b8 -> 
+  custom:scripting/monoscript/fileName/EnemyEmplacementState.cs: 183eb2a207c20639230c1310feb28d2d -> 
+  custom:scripting/monoscript/fileName/TargetingService.cs: 46480bd1702ae10d0ebea810efef37fe -> 
+  custom:scripting/monoscript/fileName/EvolutionaryIncubatorDestroyingMarker.cs: 72ea6a429c24001780464336b061e9c0 -> 
+  custom:scripting/monoscript/fileName/CaptureZoneSystem.cs: bea6bda6e7ca0cb1474fdb3f559c21ba -> 
+  custom:scripting/monoscript/fileName/EnemyMovementSystem.cs: 035239fae1d22b1b3f4e5a0d8001c8d9 -> 
+  custom:scripting/monoscript/fileName/StatModifierTag.cs: 87c7d03410aedeaf2dd7c32bad937a4c -> 
+  custom:scripting/monoscript/fileName/ClearStatModifiersRequest.cs: 7c95ad7d979b37d0b941bf8860ee88ba -> 
+  custom:scripting/monoscript/fileName/ProcessedMarker.cs: 899f9b39e06e451f95ef173925a38f9e -> 
+  custom:scripting/monoscript/fileName/StatusStackCount.cs: 7a7d5966a6f0e0f44d0d8e8362922d27 -> 
+  custom:scripting/monoscript/fileName/EFBTranslator.cs: 2914bcad7a7e42c787962ea1279de447 -> 
+  custom:scripting/monoscript/fileName/CanvasUtils.cs: b8bafd0d537f13474a5debf97d79d315 -> 
+  custom:scripting/monoscript/fileName/SpriteRendererLink.cs: 295d21276070706ca122b53a09b8a685 -> 
+  custom:scripting/monoscript/fileName/ApplyFreezeChanceFromStatSystem.cs: ea0ea7433011abbd6c7fa19bd62a423e -> 
+  custom:scripting/monoscript/fileName/CashStoneDestroyingMarker.cs: 4e78706d358c291cba9dd5aa9d9297d0 -> 
+  custom:scripting/monoscript/fileName/Bootstrapper.cs: 417b7e10e6d0c3f36c626c8f5938fd8f -> 
+  custom:scripting/monoscript/fileName/DetectionIndicatorView.cs: 1adf29ca3e82bcf38a9be6214fbcb613 -> 
+  custom:scripting/monoscript/fileName/DrawUtils.cs: 0db63d4e6a872a5f4bc92f4515876b6f -> 
+  custom:scripting/monoscript/fileName/RenderLinkProvider.cs: 8ce3061666b1adb982714f9adedf823a -> 
+  custom:scripting/monoscript/fileName/BubbleSlowdown.cs: 3fe0363bef5b0d623fdf0d8ba24eda06 -> 
+  custom:scripting/monoscript/fileName/Cheats.cs: 36563999b0b0352f11c577a8043c3f3c -> 
+  custom:scripting/monoscript/fileName/CurrencySpreadAttractSpawner.cs: c938539bc79631811b170be0e017c235 -> 
+  custom:scripting/monoscript/fileName/CurrencySpreadAttractAnimationConfig.cs: 71af6b693dba77130df24db426c8b499 -> 
+  custom:scripting/monoscript/fileName/StatusFactory.cs: 7e07e14a5300f33d4e402617d3f3e25e -> 
+  custom:scripting/monoscript/fileName/HealthDisplaySettings.cs: c8742de12bc616998921324598bae7c7 -> 
+  custom:scripting/monoscript/fileName/CaptureZoneView.cs: 8f908b4c07aa4e786e78c72ee3ccf9e8 -> 
+  custom:scripting/monoscript/fileName/RemoveStatusCreatedEventsSystem.cs: 175c0809c0198d138bf6d3f60580b571 -> 
+  custom:scripting/monoscript/fileName/ConstantSpin.cs: 770d544df943e75c499102f6203bf2f9 -> 
+  custom:scripting/monoscript/fileName/IReward.cs: 9ec460962fcd5021dfdf950bf4106790 -> 
+  custom:scripting/monoscript/fileName/KamikazeEnemy.cs: 0d85c057e7cb3e1495f3377f7f0feca1 -> 
+  custom:scripting/monoscript/fileName/LoadingScreenAnimation.cs: d33ea01d691e9749990b6fcebd2a2910 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EnemyCountTrackingSystem.cs: 2b203b6960ef8de94d91d1f746db4500 -> 
+  custom:scripting/monoscript/fileName/GameTimeFeature.cs: 359ca75d534c659059e7f3c867921aa9 -> 
+  custom:scripting/monoscript/fileName/MovementSpeedFactor.cs: 38c22fd6767a3d2897525ba73ce0bbac -> 
+  custom:scripting/monoscript/fileName/BonusChestTriggeredMarker.cs: ef85daba52d78bdeae38ab2e97e2c0ba -> 
+  custom:scripting/monoscript/fileName/ExcludeFromBuildComponentEditor.cs: 938a9a35d46f7c889a0c11241703ad37 -> 
+  custom:scripting/monoscript/fileName/InfrastructureAssetPath.cs: 90ad0f858156d45f6eb68230d0b05c24 -> 
+  custom:scripting/monoscript/fileName/MenuButtonAnimator.cs: ca904940c6dca16e0bc1eea43a5d2f3d -> 
+  custom:scripting/monoscript/fileName/DamagedTankView.cs: 140032a7b8acb15e2d1ec7fbedf5fbda -> 
+  custom:scripting/monoscript/fileName/EvolutionaryIncubatorDestroyMarker.cs: d769cb3239b0d76330a577ffdcf3c25f -> 
+  custom:scripting/monoscript/fileName/EnemySpawnSystem.cs: 2bb2d1e22a69d050e3cb983da845e6af -> 
+  custom:scripting/monoscript/fileName/ProjectileHitCountSystem.cs: d13662e80e6688e362e0b47a772f30bc -> 
+  custom:scripting/monoscript/fileName/CollectibleTypeLink.cs: 93d1775c0b01e9b8ec404ccec2b139e0 -> 
+  custom:scripting/monoscript/fileName/GameEndingState.cs: b869239a6ff8c5d309de31208d271dfa -> 
+  custom:scripting/monoscript/fileName/PatrolGuard.cs: 2e81f1d4511c38f47a32bda3877fa668 -> 
+  custom:scripting/monoscript/fileName/DamageFeature.cs: 4e758533fcc2236fbe96a1507675c09b -> 
+  custom:scripting/monoscript/fileName/DamagedTankTag.cs: 977b90bb9bcb1f99815fc4f908d0947f -> 
+  custom:scripting/monoscript/fileName/ScrollAwareButton.cs: fc5ad07243e1db2bb91a0b888f305381 -> 
+  custom:scripting/monoscript/fileName/DelayedCallback.cs: 9d83d71dcc1e3556ee9e1b2955629e10 -> e88c5396d33adcd6404b4cb8a051b2b1
+  custom:scripting/monoscript/fileName/EvolutionaryIncubatorActivationSystem.cs: 5957a5601b5432ffd7b5d72ff9f95267 -> 
+  custom:scripting/monoscript/fileName/CannonWeapon.cs: 817a99150bb0de57111c73dbaf8c1228 -> 
+  custom:scripting/monoscript/fileName/HitVFXView.cs: 32040f9a9c2fae985d7f948b4abcffe8 -> 
+  custom:scripting/monoscript/fileName/EnemyGroupConfig.cs: 48192d35fa029396600e074d765cd925 -> 
+  custom:scripting/monoscript/fileName/EnemyEmplacementDestroyingMarker.cs: 92b86050dc969b874cb71ca4ee79151d -> 
+  custom:scripting/monoscript/fileName/SuppressDamageEventMarker.cs: 8c089b07f782a2565f6b8d997eb16c91 -> 
+  custom:scripting/precompiled-assembly-types:ExcludeFromBuildEditor: f9dc1635b6905cce0253aa395e8a74f0 -> 
+  custom:scripting/monoscript/fileName/SmoothSliderToggle.cs: 1e8107014dc839ae7d787e3203c1b0eb -> 
+  custom:scripting/monoscript/fileName/EnemyDestroyingMarker.cs: 34b6651d13086beed909c8e3e9824c80 -> 
+  custom:scripting/monoscript/fileName/MarkAppliedToModifiersSystem.cs: 3a347db89fb9908b375448449d5ee3d8 -> 
+  custom:scripting/monoscript/fileName/CollisionLimit.cs: c4a318dcc31b6dbdcc15ddd215f49c94 -> 
+  custom:scripting/monoscript/fileName/ApplyShootingRangeFromStatSystem.cs: 90a1d541a2e64b6b5dff8686e2558609 -> 
+  custom:scripting/monoscript/fileName/MovementState.cs: 5d3c77b66cf99bd6235070fd92a1b70a -> 
+  custom:scripting/monoscript/fileName/ActiveTrigger.cs: 39e77f39ed833f9bf0f3dd9739f34213 -> 
+  custom:scripting/monoscript/fileName/GamePushAdvertisementProvider.cs: c83ac4e30215e5dd8423dd25b15a40bc -> 
+  custom:scripting/monoscript/fileName/EditorUtils.cs: d234e4e9b7669092cc889606969b6277 -> c68cd8a7363f08bfc0eb17cb07da36ad
+  custom:scripting/monoscript/fileName/ExcludedObject.cs: d50e0a6b1a0b4189052f3d6e1f65ad3f -> 
+  custom:scripting/monoscript/fileName/UnapplyFreezeVisualsSystem.cs: a4a9e02829b78bf3914e14ab250fedaf -> 
+  custom:scripting/monoscript/fileName/CustomBuildPipeline.cs: e3dc96e804a3edd50d766aa33baf4c04 -> 
+  custom:scripting/monoscript/fileName/StatsService.cs: f4002ed1c529bf91724852004711a6c6 -> 
+  custom:scripting/monoscript/fileName/LockHealthBarRotationSystem.cs: 837cf785da389ca0bc52d3dee8d7e784 -> 
+  custom:scripting/monoscript/fileName/ApplyDefenseRegenFromStatSystem.cs: 0d392dee4b2a9a3fe3e19a79b95e82f8 -> 
+  custom:scripting/monoscript/fileName/DestroyHitVFXSystem.cs: 3c9a4d15b0c22a86ee8733e389a9ca6d -> 
+  custom:scripting/monoscript/fileName/MathematicsDrawers.cs: f55ff2195245c57ad8dd4ae275cfa5b5 -> 
+  custom:scripting/monoscript/fileName/FarmingAreaView.cs: 8230fc1a132aac6fe606259e479f9232 -> 
+  custom:scripting/monoscript/fileName/GameSpeedController.cs: 90098c4e80d41d4bdb797f7c8cbbb417 -> 
+  custom:scripting/monoscript/fileName/StatDisplay.cs: 56483185587173ad550ea239bc7bd981 -> 
+  custom:scripting/monoscript/fileName/CollisionCleanupSystem.cs: f2e1a2d5bd5ad54662cbe0e74e472af7 -> 
+  custom:scripting/monoscript/fileName/EvolutionEffect.cs: cc103164569e9c9c47fcf774408e07c1 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/GateMovement.cs: aed12f1c54a8cc25dd0d99d77b057c91 -> 
+  custom:scripting/monoscript/fileName/CollisionSensor.cs: a3ec23d4584ea8494dcf6f9589b192af -> 
+  custom:scripting/monoscript/fileName/InputService.cs: aca328793e017c89b5b00cbb0f311faf -> 
+  custom:scripting/monoscript/fileName/MockAdvertisementProvider.cs: cbb6065526c77be70a7c851f6fe66b06 -> 
+  custom:scripting/monoscript/fileName/StatusApplier.cs: c8993abd5dcd4fcaac237d01ad078a87 -> 
+  custom:scripting/monoscript/fileName/TapToStartButton.cs: ffab8e3530f8bcb90fc9977475c4cc25 -> 
+  custom:scripting/monoscript/fileName/BubbleActivatedMarker.cs: ecda7b7581c3a48cfe3eccb7dcf18082 -> 
+  custom:scripting/monoscript/fileName/ProjectileDeathMarker.cs: 070673595565c1f34dcfe81f4693926a -> 
+  custom:scripting/monoscript/fileName/CollectibleDestructionSystem.cs: 8a89d317ce0181de7305b8e927e08012 -> 
+  custom:scripting/monoscript/fileName/JoystickUpdateEvent.cs: ed9529f7fc7d72ee9903a6cee6121fae -> 
+  custom:scripting/monoscript/fileName/Owner.cs: 02c517d662c517de9e27139e4ec1ee85 -> 
+  custom:scripting/monoscript/fileName/CameraService.cs: cc55cdd6bab225888ed5123bf061799b -> 
+  custom:scripting/monoscript/fileName/EnemyEmplacementTag.cs: 61edf669f304387603b60a65938c8d08 -> 
+  custom:scripting/monoscript/fileName/LevelEditor.cs: e657a9ab00d8d1ae31f719bc4e60e757 -> 
+  custom:scripting/monoscript/fileName/ButtonPuncher.cs: 1c70d08e3a12e8080eed9627fa2f0a54 -> 
+  custom:scripting/monoscript/fileName/BarrelGenerationPreset.cs: 862ce43bbbe514f23db9b368d7599555 -> 
+  custom:scripting/monoscript/fileName/GateDestructionSystem.cs: ec937fa6305ee33d25f1719f352daebd -> 
+  custom:scripting/monoscript/fileName/DamagedTankDestroyingMarker.cs: 34d6dc6e443edf5b6f6123bd7433112f -> 
+  custom:scripting/monoscript/fileName/BarrelView.cs: a8991ad69477b05a47765be24ae77aea -> 
+  custom:scripting/monoscript/fileName/EvolutionLevelUpEvent.cs: b34dd0c8b359ec41d111898775f68614 -> 
+  custom:scripting/monoscript/fileName/EvolutionaryIncubatorEnhancementSystem.cs: b9a431b44c0262950a341f525d11a9ec -> 
+  custom:scripting/monoscript/fileName/PatrolGuardGenerationPreset.cs: 85d2d74e477af1b39dedc0b26201278e -> 
+  custom:scripting/monoscript/fileName/ExplosiveBarrelExplodedMarker.cs: 06a408eb2c7ed8046bacd64ae151d88f -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DamageImpactEvent.cs: 4d37edf4dd5b3f25d656d87b1fedb49a -> 
+  custom:scripting/monoscript/fileName/InteractiveObjectsFeature.cs: b43e1d0c5ef12cbcbcc22f182840419b -> 
+  custom:scripting/monoscript/fileName/SoulFactory.cs: b90cce40780ade11af8172efb6418b86 -> 
+  custom:scripting/monoscript/fileName/ETFXRotation.cs: e343bb3cdc2d115200128a669b71dda1 -> 
+  custom:scripting/monoscript/fileName/DamagePopupView.cs: ee108a1edd80519325baf29520934e48 -> 
+  custom:scripting/monoscript/fileName/ExcludeFromBuildController.cs: 95fe21a587c4b34c94070f1fdc0c84e2 -> 
+  custom:scripting/monoscript/fileName/GateEnhancementSystem.cs: 059971b8567751267e1e80f8ee8ad9c1 -> 
+  custom:scripting/monoscript/fileName/StatsBuilder.cs: bfc6bef4109584ce5f2243670c9129de -> 
+  custom:scripting/monoscript/fileName/RemoveCustomMinValueOnRemoveSystem.cs: ac8407f60cc5a382f99ad97edd3efaf6 -> 
+  custom:scripting/monoscript/fileName/EffectType.cs: 29b4543142ae115069b825f401dcbeca -> 
+  custom:scripting/monoscript/fileName/DyingMarker.cs: 2706d68a16a7e2999b4623d5beed65ca -> 
+  custom:scripting/monoscript/fileName/CrowdMovementCalculationSystem.cs: aa383d2d4eface8721d992c07d5ca06f -> 
+  custom:scripting/monoscript/fileName/TriggerExitEvent.cs: f91253b55d9beca6eeb2fe3ac878d073 -> 
+  custom:scripting/monoscript/fileName/VisionDetectionSystem.cs: 18ece82d244354e9c4b5df92a58a28e5 -> 
+  custom:scripting/monoscript/fileName/HealthModifierTag.cs: 402f73065d20d1a36324610fbc358e72 -> 
+  custom:scripting/monoscript/fileName/EvolutionaryIncubatorVisualSystem.cs: 9c890a57cc1a6ebee435369c56fecf9d -> 
+  custom:scripting/monoscript/fileName/ChapterRow.cs: 200310249513302ef6536bccf56ee957 -> 
+  custom:scripting/monoscript/fileName/UpgradesFeature.cs: cd297934c314642a6ce41939bd8297a2 -> 
+  custom:scripting/monoscript/fileName/ProjectileLifetimeSystem.cs: 32b151a5e5fd72a5a674b41248bcd399 -> 
+  custom:scripting/monoscript/fileName/RiflemanEnemyTag.cs: 5d093f375c1df30c7c10395c20be7742 -> 
+  custom:scripting/monoscript/fileName/PointMarker.cs: 3a3227d13f89fa2db6d92f587ee812f1 -> 
+  custom:scripting/monoscript/fileName/StatChangedEvent.cs: aaa5824b52365f1b7cfef8acd83f63df -> 
+  custom:scripting/monoscript/fileName/CrowdPopulation.cs: 5706e3550db6b6079cd50aaa1cb2087a -> 
+  custom:scripting/monoscript/fileName/DetectedTargetMarker.cs: 5cb652a7065b220fca63bca4a1755d79 -> 
+  custom:scripting/monoscript/fileName/GateGenerationPreset.cs: 7ef8dc982c83991acd0dcdefb571f213 -> 
+  custom:scripting/monoscript/fileName/StealthDebugTestObject.cs: 38c0fecbb29b9088b3893e630fbc39aa -> 
+  custom:scripting/monoscript/fileName/ProjectileSpinSystem.cs: 2eb7b9b5baa12f800045b4961db39e45 -> 
+  custom:scripting/monoscript/fileName/GameResultPopup.cs: 03470066da60adf80cdb9bceafc9af25 -> 
+  custom:scripting/monoscript/fileName/CannonView.cs: 56c75731322bbe0ad8e2b7ef6190da2b -> 
+  custom:scripting/monoscript/fileName/EvolutionProgressDisplay.cs: 5f88b308dc75f280c2e8e9bbe2f32b83 -> 
+  custom:scripting/monoscript/fileName/CannonDestructionSystem.cs: 10eb50aedfa9d5dc4cd56c2162778c3b -> 
+  custom:scripting/monoscript/fileName/ExplosiveBarrel.cs: 1b325d45e71402df3acfc8b7231f2ea0 -> 
+  custom:scripting/monoscript/fileName/ProjectileFeature.cs: b62fce48e46a1846756935e59a923a88 -> 
+  custom:scripting/monoscript/fileName/HealthDisplaySystem.cs: 54c2e9eb452d1f66ad4fa8337fb29b98 -> 
+  custom:scripting/monoscript/fileName/ShinyEffectForUGUI.cs: 9d8b6eb8c1b4338e0eadacffe497ced0 -> 
+  custom:scripting/monoscript/fileName/ProjectileDistanceTracker.cs: 3536de982354e91c5a7c8f212b0a57d3 -> 
+  custom:scripting/monoscript/fileName/MilitaryCrowdMemberTag.cs: 40dda537533b5c1e6e352b1b7e8de495 -> 
+  custom:scripting/monoscript/fileName/EntityReference.cs: 3dfce5a2bf3d089a44bcf35c6d61c96b -> 
+  custom:scripting/monoscript/fileName/StatModificationEffect.cs: ee4fdb463d090b79a937fb482a77e877 -> 
+  custom:scripting/monoscript/fileName/ExcludeFromBuildSettings.cs: 6e170f5418492fd653a284cf55812080 -> 
+  custom:scripting/monoscript/fileName/TriggerEnterEvent.cs: 50eacfec64b2ff0ad683b39251726c2d -> 
+  custom:scripting/monoscript/fileName/BonusChestView.cs: 439492cb697fec373f8b87e5317c7f07 -> 
+  custom:scripting/monoscript/fileName/EnemyGroup.cs: 2f81c71802c2149c1e01215919263e6e -> 
+  custom:scripting/monoscript/fileName/InteractiveObjectFactory.cs: e10bc913686a7eded47aca19aae096de -> 
+  custom:scripting/monoscript/fileName/RewardedAdButton.cs: 9b0d62012ffb816ea7ca8de11e4dedc2 -> 
+  custom:scripting/monoscript/fileName/ButtonAnimator.cs: 7fb244b05949aa8131bbd5f5d66b2b6a -> 
+  custom:scripting/monoscript/fileName/SpeedModifierTag.cs: e291d02d2637545c02c32f102cd87028 -> 
+  custom:scripting/monoscript/fileName/MineArmedMarker.cs: 6a0cd360e632949b9a92a767fd0393e6 -> 
+  custom:scripting/monoscript/fileName/FinishTriggerView.cs: 03df905675cc9c334db778e960921803 -> 
+  custom:scripting/monoscript/fileName/RewardService.cs: f060e075317fae44481f5dd9cf5a0fd5 -> 
+  custom:scripting/monoscript/fileName/EvolutionaryIncubatorTag.cs: 5c16a99484e7bbe23dc9612a13a65188 -> 
+  custom:scripting/monoscript/fileName/RemoveStatModifierSystem.cs: f4de28374bb0313d476d12804e570d6a -> 
+  custom:scripting/monoscript/fileName/InteractiveObjectData.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/NestedFadeGroupSpriteRenderer.cs: 5e34315bbfaeb496702657f85dd27727 -> 
+  custom:scripting/monoscript/fileName/ETFXPitchRandomizer.cs: 5e0812fb099c455198fae606e4820674 -> 
+  custom:scripting/monoscript/fileName/RemoveAppliedEventsOnStatusesSystem.cs: 5d6e49d6f00bd6ec3ceed56f4ebdad24 -> 
+  custom:scripting/monoscript/fileName/ProjectileCollisionSystem.cs: b4a6cead464a04169e2b5aa2d9f0f9d4 -> 
+  custom:scripting/monoscript/fileName/StatusTimeSinceLastTick.cs: c54b9890fae0c05f0497c9b9626ba34e -> 
+  custom:scripting/monoscript/fileName/BubbleSlowdownSystem.cs: 5dc3be05f7d1e9be8e37ff82c170c760 -> 
+  custom:scripting/monoscript/fileName/NestedFadeGroupBase.cs: bd8287a41e4fc292ca350cd05bc1fa3e -> 
+  custom:scripting/monoscript/fileName/UnpauseRequest.cs: 147493f3f395f217d88d535c5f634da1 -> 
+  custom:scripting/monoscript/fileName/DestroyStatChangedEventsSystem.cs: 0481c43d1450c2eabe74216b91087ba5 -> 
+  custom:scripting/monoscript/fileName/ApplyBaseDefenseBonusFromStatSystem.cs: 7984ece7230845ce29209f51a44bdef8 -> 
+  custom:scripting/monoscript/fileName/MovementFeature.cs: 1e4b3abb1d7452acf62bdaebfa25a4f4 -> 
+  custom:scripting/monoscript/fileName/CrowdMemberHealthDisplaySystem.cs: 9cfc5205137ad3d96eb68ec9253fe251 -> 
+  custom:scripting/monoscript/fileName/EditorPositionSynchronizer.cs: 3e371f13f68e24534773d2a865c7055c -> 
+  custom:scripting/monoscript/fileName/IAdvertisementProvider.cs: ba77178dc432315f8910cbc474cc8e91 -> 
+  custom:scripting/monoscript/fileName/DestroyStatusesWithoutTargetSystem.cs: 2e3d26ba3c4d0c141a0911bbd8883b66 -> 
+  custom:scripting/monoscript/fileName/MineTag.cs: 219d38295db39a47d762ec7a90bbcfc4 -> 
+  custom:scripting/monoscript/fileName/ProjectileMovementSystem.cs: 61c0d001d6d49c16ef7e556754727885 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: c8606fb619c8eb8c914647ec9c19b8f3 -> 
+  custom:scripting/monoscript/fileName/CapturedMemberMarker.cs: be437064978279110138399cd7df419b -> 
+  custom:scripting/monoscript/fileName/MortarStrikeSystem.cs: dcbc6fc08879c14c505feba916ab05f3 -> 
+  custom:scripting/monoscript/fileName/ButtonShiner.cs: a7dc5664b69f0696f250d4c21c9647bc -> 
+  custom:scripting/monoscript/fileName/MachineGunnerShootingSystem.cs: cd221ba9adec348caf3a176fe23ab881 -> 
+  custom:scripting/monoscript/fileName/Producer.cs: 1d03106a38bd41d1a0510c96fae0b83e -> 
+  custom:scripting/monoscript/fileName/EvolutionaryIncubatorView.cs: 27b3559a04bb878f5ef52de292403e2c -> 
+  custom:scripting/monoscript/fileName/GameStateMachine.cs: cf783418db3c85645b99b9a8eaeb7645 -> 
+  custom:scripting/monoscript/fileName/SpawnerState.cs: 5c036e6b183ed66b0142eac347b0b8c3 -> 
+  custom:scripting/monoscript/fileName/LayerUtils.cs: e0cdddaeb14eebe59c2f102a9e04da23 -> 
+  custom:scripting/monoscript/fileName/MachineGunnerGenerationPreset.cs: 5afba457567ba8e28b161f70462541a1 -> 
+  custom:scripting/monoscript/fileName/MilitaryCrowdMemberView.cs: 83a1850abd0289ded3d747787234b1a7 -> 
+  custom:scripting/monoscript/fileName/CurrencyService.cs: cea87322d7966dcfe1d35b5f3920b698 -> 
+  custom:scripting/monoscript/fileName/StatModifier.cs: 04345952230626511e13f231b5a94d41 -> 
+  custom:scripting/precompiled-assembly-types:ExcludeFromBuild: 3d40f62f2f4e3488b44e2466d5b884cf -> 
+  custom:scripting/monoscript/fileName/BubbleTag.cs: 85b02847d46e568f14c7c63b836bbe5c -> 
+  custom:scripting/monoscript/fileName/StatModifierHelper.cs: a969e3206b1b34b2188cc5abdf1e2008 -> 
+  custom:scripting/monoscript/fileName/GameConfig.cs: f61524d48b440dbea4cce861a720525e -> 
+  custom:scripting/monoscript/fileName/OwnerBaseHealthBonus.cs: eb399f95ad3601cd362d43335582037a -> 
+  custom:scripting/monoscript/fileName/DestroyRemovedModifiersSystem.cs: b99ab060d5e0bdd75bf81ab14ca62067 -> 
+  custom:scripting/monoscript/fileName/CashStoneDestructionSystem.cs: d204997e326bfa94666360da469f0018 -> 
+  custom:scripting/monoscript/fileName/StatusDeathMarker.cs: a2beb4d2527e0e5e133bf88bea574601 -> 
+  custom:scripting/monoscript/fileName/MemberDetectionEvent.cs: 5440eb5f771b35fa153fc67a529f46aa -> 
+  custom:scripting/monoscript/fileName/LevelObjectTransformSyncer.cs: 7cec1efea9a554989f28db8cfef386dd -> 
+  custom:scripting/monoscript/fileName/HeroViewLink.cs: 4c87ad7d7237497b105610992f0b474b -> 
+  custom:scripting/monoscript/fileName/DeferredEffectMarker.cs: 828821f06dac7abf6476c19914c05714 -> 
+  custom:scripting/monoscript/fileName/FreezeStatusChance.cs: 2c76d2890ec669d5dbb1483cb9469545 -> 
+  custom:scripting/monoscript/fileName/CollectibleService.cs: b776c871e2bf9a7569f27a9d5b9a089b -> 
+  custom:scripting/monoscript/fileName/EnemyEmplacementDestructionSystem.cs: a72d302408671b7365a1d503e958b7f4 -> 
+  custom:scripting/monoscript/fileName/LevelObjectData.cs: 971d4fb6899bf2ade36943acc23329dd -> 
+  custom:scripting/monoscript/fileName/PatrolGuardTag.cs: 8f92ff2aa97675b8cfb90593e57862cf -> 
+  custom:scripting/monoscript/fileName/Player Controls.cs: 849ed7f5b11c9db237ef61b01c5a5104 -> 
+  custom:scripting/monoscript/fileName/GateMovementSystem.cs: 8490788909b9805f008cc698039deeac -> 
+  custom:scripting/monoscript/fileName/PopulationModificationEffect.cs: 8e4be5d23c25ecf617fa0b40f66ccb9e -> 
+  custom:scripting/monoscript/fileName/DestroyModifiersWithoutTargetSystem.cs: 52d851af190705e1a1886f5ebc54ea0a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LevelConfig.cs: 7fc741304c628330b2aca1c821b8e328 -> 
+  custom:scripting/monoscript/fileName/EvolutionDisplaySettings.cs: 18a6f8554d1e77038a169bf452a75ae6 -> 
+  custom:scripting/monoscript/fileName/MultiShot.cs: 5512353346e7c4a11fa9f164a7b84cb2 -> 
+  custom:scripting/monoscript/fileName/StatusVisuals.cs: 40cb65e6c93f6b7d888b868bc49a5440 -> 
+  custom:scripting/monoscript/fileName/CashStoneTag.cs: ab79e40b5fa32764a837ed36977ebc68 -> 
+  custom:scripting/monoscript/fileName/IsEnhanceableMarker.cs: c5d7592582f967288dec7709d5179414 -> 
+  custom:scripting/monoscript/fileName/CrowdTag.cs: a776765a77b333f5c4967689a0b28175 -> 
+  custom:scripting/monoscript/fileName/DeathFeature.cs: fa96a43528dfe92a4d07b1fb9030ec8c -> 
+  custom:scripting/monoscript/fileName/FragmentsReward.cs: 010f0422ba1cf78b2c7c3e2b695d8b34 -> 
+  custom:scripting/monoscript/fileName/ConditionCallback.cs: 32d9bbdae60e83654921ab02ff8164a3 -> 
+  custom:scripting/monoscript/fileName/GateVisualSystem.cs: 1f4f3e7e92e186e7ae295a46ef7b3232 -> 
+  custom:scripting/monoscript/fileName/CollectibleDestroyMarker.cs: 028ccacc992c1a6d969d818729a55b4d -> 
+  custom:scripting/monoscript/fileName/GameFormatter.cs: 7536de8804df8abda637e3b6ac46a094 -> 
+  custom:scripting/monoscript/fileName/InputFeature.cs: 6d3c06307d95b21e5bc02b57bd5e7187 -> 
+  custom:scripting/monoscript/fileName/Position.cs: 439daa5c830adfdae31cb6a71ed8f7bb -> 
+  custom:scripting/monoscript/fileName/Demo_ShinyEffectForUGUI.cs: e00ee8befd19b52c25b3a8070d3cd9b0 -> 
+  custom:scripting/monoscript/fileName/RewardValue.cs: 833bc429ff44c599ede56731991ad15b -> 
+  custom:scripting/monoscript/fileName/UpgradeConfig.cs: cb7f60456f1fef1143ee1ce8ae2ad1df -> 
+  custom:scripting/monoscript/fileName/StatusAppliedEvent.cs: 9f00896e41d8c9c2e9e8fc5b673cbd3d -> 
+  custom:scripting/monoscript/fileName/ExplosiveBarrelDestroyMarker.cs: 953d9221fed22c717088df545478a2c8 -> 
+  custom:scripting/monoscript/fileName/Stat.cs: 62915159ebab3d98c1e84de1b112cc8a -> 
+  custom:scripting/monoscript/fileName/MortarStrikeData.cs: 99e214822fe3876c63e3ed8b4644adbc -> 
+  custom:scripting/monoscript/fileName/StatusCreatedEvent.cs: e77d516fe6e1e90cf6d23720f12a94bb -> 
+  custom:scripting/monoscript/fileName/CannonTag.cs: 988dfc70bf44cd9f6ac3b87a67577799 -> 
+  custom:scripting/monoscript/fileName/CrowdFeature.cs: 2b76e1c178748c0c48db9315a11c5011 -> 
+  custom:scripting/monoscript/fileName/BackgroundScroller.cs: 624a9da1a937bcf8a819dfa8c5063ee5 -> 
+  custom:scripting/monoscript/fileName/PointerDownEvent.cs: 0c31ebc1edd99696b846588c0fc192ce -> 
+  custom:scripting/monoscript/fileName/StatusLifetimeSystem.cs: c71c7b327c27c1742bc6884074425e72 -> 
+  custom:scripting/monoscript/fileName/RoadSegment.cs: 232fb1e5222d06cfe131b1c5cec6a508 -> 
+  custom:scripting/monoscript/fileName/NoEquippedArsenalToast.cs: 0c5c05e8e924a4e0e05f7d952adfdcb0 -> 
+  custom:scripting/monoscript/fileName/SilverCoinsWidget.cs: d7c6dd78845760a26285f0bbd131fba8 -> 
+  custom:scripting/monoscript/fileName/EntityViewLink.cs: 8d3fc488ab2799af9b3051e361093929 -> 
+  custom:scripting/monoscript/fileName/LevelObjectiveLabel.cs: 2de1793dfc98fa0ad2de092e3c1b2d59 -> 
+  custom:scripting/monoscript/fileName/CrowdMovementSystem.cs: 5729227d80fdf2a070dfeb49b7e23c4a -> 
+  custom:scripting/monoscript/fileName/ExcludeFromBuildWindow.cs: 2d8f0e3b43cd7336a429bcc10845fabc -> 
+  custom:scripting/monoscript/fileName/AdvertisementService.cs: c1c1d84e6f915f2e58b6d89a5d49bedc -> 
+  custom:scripting/monoscript/fileName/CurrencySpreadAttractAnimation.cs: 44352c82fab64f41e1cc8faf9dc502d4 -> 
+  custom:scripting/monoscript/fileName/EvolutionaryIncubatorDestructionSystem.cs: bf85ca9d1678fada2ca216ed2887f114 -> 
+  custom:scripting/monoscript/fileName/MortarTelegraphView.cs: e865070f35a57eccc0a28cf023682d91 -> 
+  custom:scripting/monoscript/fileName/CrowdEvolutionSystem.cs: 15632815b31d5eae5f93ef74f48331a3 -> 
+  custom:scripting/monoscript/fileName/EFBMain.cs: 9fdb64ff37d7301942743bb52a43541e -> 
+  custom:scripting/monoscript/fileName/Health.cs: 1cebd3f4aa5fba67ade3d6d419f9cf47 -> 
+  custom:scripting/monoscript/fileName/MineState.cs: dbefe6f270e485460e915871349c2283 -> 
+  custom:scripting/monoscript/fileName/Damage.cs: fdfd0e5a243d470c4ba56fbf1a4f3fc5 -> 
+  custom:scripting/monoscript/fileName/StatusTypeLink.cs: a0a8aeba262b58a9517c1b5eda8f45d3 -> 
+  custom:scripting/monoscript/fileName/UpgradeCard.cs: d2164dabc405374fca3a980d380b569c -> 
+  custom:scripting/monoscript/fileName/StatusProducedModifiers.cs: 07b98181acc80d07c7eea72e7e4834c9 -> 
+  custom:scripting/monoscript/fileName/RemovedModifierMarker.cs: 19efa5dcdbbcb8fcf9ce09e85c4d6346 -> 
+  custom:scripting/monoscript/fileName/CheckForHiddenObjectsAtStart.cs: 6ace128fe555cbd78eeb7aa09d25b7a3 -> 
+  custom:scripting/monoscript/fileName/CrossCompileCallbacks.cs: d5e48ad2079d4dec5d3dbaf4ba74799c -> 
+  custom:scripting/monoscript/fileName/ProjectileEnhancements.cs: 2cb39036ae1cc6eaf0802b0de05b5dbc -> 
+  custom:scripting/monoscript/fileName/HealedEvent.cs: 29c94118a82228e551f06e10eae02d76 -> 
+  custom:scripting/monoscript/fileName/RemoveStatusSystem.cs: cb283092d190e8b4e09deab0aa1fa209 -> 
+  custom:scripting/monoscript/fileName/BarrelDestructionSystem.cs: d436d9b1e936fe4d73b78930195ef3e2 -> 
+  custom:scripting/monoscript/fileName/GateDestroyingMarker.cs: bc5b2f50317caad378cd2b589ca36e5a -> 
+  custom:scripting/monoscript/fileName/CommonCrowdMemberView.cs: 84bd5adcaf4ce30ff2eb922c7194ac3b -> 
+  custom:scripting/monoscript/fileName/SoulView.cs: 60053179bfbdbce9a0faf21bb41029a4 -> 
+  custom:scripting/monoscript/fileName/PostFinishFarmingArea.cs: 9274bb2f89a074acd00bf91e6e1394f6 -> 
+  custom:scripting/monoscript/fileName/PatrolGuardView.cs: 07cfc0f982b8b640a73cde8d601c2304 -> 
+  custom:scripting/monoscript/fileName/GameWindow.cs: 1ce3de06ac862fb9e58bf14db7d0914f -> 
+  custom:scripting/monoscript/fileName/StatTextDisplay.cs: fdc861f23e5bfe851d3774314c986c4b -> 
+  custom:scripting/monoscript/fileName/EFBRotator.cs: a822ecc15862dc5b60b0b5c43b4b2f1e -> 
+  custom:scripting/monoscript/fileName/StatusVisualsFeature.cs: b8f1ffd19e86a19ba135ae7015336199 -> 
+  custom:scripting/monoscript/fileName/DefenseRegen.cs: 90d9414fbe25f0057bb0082a73234f3f -> 
+  custom:scripting/monoscript/fileName/BootstrapState.cs: 9e1ff8564676735c2e27e32d96007bf1 -> 
+  custom:scripting/monoscript/fileName/ModifierAppliedMarker.cs: 90e0b6709a38aea76e50a9b09566081c -> 
+  custom:scripting/monoscript/fileName/CollisionEvent.cs: 02543b405b5ba8dfa2dcb8a4ffae1d2c -> 
+  custom:scripting/monoscript/fileName/BubbleMovementSystem.cs: d5a4b49ba9f28b9b9fc6005ec470b894 -> 
+  custom:scripting/monoscript/fileName/CaptureZoneTag.cs: eef0fb38a68af599d8c052bc59a20083 -> 
+  custom:scripting/monoscript/fileName/CrowdMemberTag.cs: 482aacf166d07918fa93baa925726c57 -> 
+  custom:scripting/monoscript/fileName/RigidbodyLink.cs: aa204165927a72b5e4c40f22bc72eda3 -> 
+  custom:scripting/monoscript/fileName/GameTimeService.cs: a9ce03e06690e5b41a7b9d1c92c1e4cb -> 
+  custom:scripting/monoscript/fileName/PauseRequest.cs: 8d27aaa905eb6fb0d8adc3a6e35fe3ad -> 
+  custom:scripting/monoscript/fileName/CollectibleView.cs: 2eeef0334145d5a3eaf786daf3059872 -> 
+  custom:scripting/monoscript/fileName/StatsFeature.cs: c2be692878a012d02a1c387b3c8e3c03 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/EnemyGroupView.cs: ee9450d6df84109685ede0913d5c0e53 -> 
+  custom:scripting/monoscript/fileName/StatusTag.cs: 5475eec2888a288515aadc65ff8fbfba -> 
+  custom:scripting/monoscript/fileName/ActiveCollision.cs: 4f745db598eb4598f80140d5bfe933a2 -> 
+  custom:scripting/monoscript/fileName/LevelView.cs: c68e70d7c55a7903f979cff842d646ab -> 
+  custom:scripting/monoscript/fileName/ZeroHealthMarker.cs: 9c95ec503f316e76fec446351d94e862 -> 
+  custom:scripting/monoscript/fileName/MortarTelegraphTag.cs: 0fbe963ca6f267f6e0f5672bdb9572b1 -> 
+  custom:scripting/monoscript/fileName/CivilianCrowdMemberTag.cs: d302b2a98a78366efc032fc665bfb2d5 -> 
+  custom:scripting/monoscript/fileName/ApplyFreezeStatusSystem.cs: 3637e0238ecedfbbc46e5e0b1faf6a52 -> 
+  custom:scripting/monoscript/fileName/CrowdShootingSystem.cs: 871dc1ec7cf8804f8d43528caca9e9e7 -> 
+  custom:scripting/monoscript/fileName/TargetId.cs: 2cd740a196c29f52517de0a81dbc057c -> 
+  custom:scripting/monoscript/fileName/CrowdBoundaryCalculationSystem.cs: db9da82c0afd716b5829c8a5c9915e45 -> 
+  custom:scripting/monoscript/fileName/FreezeChanceStatusSystem.cs: d78e777acc98af890f4674a102bf312e -> 
+  custom:scripting/monoscript/fileName/PatrolGuardSystem.cs: 0b4130142a8a8ef9ac7a2d931d8358ba -> 
+  custom:scripting/monoscript/fileName/EnemyView.cs: 10316cddabc716495720093da924d1d7 -> 
+  custom:scripting/monoscript/fileName/DamagePopupSystem.cs: c7148cc96bf7d5d371979a42a75bb4b1 -> 
+  custom:scripting/monoscript/fileName/DeathModifierMarker.cs: 70bb032ca15a8e946ef9e7e599092c0e -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ApplySpeedFromStatSystem.cs: e7f403bbea51235dd8637dc5413c59b5 -> 
+  custom:scripting/monoscript/fileName/InteractiveObjectView.cs: c61d9e23a3fd4c362475ca526ef45656 -> 
+  custom:scripting/monoscript/fileName/PauseSystem.cs: af0410c27cdbed9f73cbf01b385b333b -> 
+  custom:scripting/monoscript/fileName/DestructedMarker.cs: d1292b4c24beaf85941b29506c128221 -> 
+  custom:scripting/monoscript/fileName/ExplosiveBarrelView.cs: 3f72118f68dfe8f214cffd123f8c1bfd -> 
+  custom:scripting/monoscript/fileName/UnapplyFreezeStatusSystem.cs: b47be3baf8c63093c63e8fa2ad06e721 -> 
+  custom:scripting/monoscript/fileName/ExplosiveBarrelExplosionSystem.cs: 611596691896ea2ea7649b7e0ed78108 -> 
+  custom:scripting/monoscript/fileName/StatModifierSetupReference.cs: 5b8da5b0c7fddeb0dfcd93a7ea52d064 -> 
+  custom:scripting/monoscript/fileName/InteractiveObjectCrowdCollisionSystem.cs: 0afd2bcd7783b541031864d674ecd8d4 -> 
+  custom:scripting/monoscript/fileName/ExcludeFromBuildData.cs: 4a23b1093498c7cd931d415ec0c770fa -> 
+  custom:scripting/monoscript/fileName/StatusFeature.cs: 8d51dd4e093022719923a90d25dc1e28 -> 
+  custom:scripting/monoscript/fileName/BarrelTag.cs: dc059a902f419726e8540af3676d1b54 -> 
+  custom:scripting/monoscript/fileName/RemoveCrowdMembersRequest.cs: a3853ca6bfcaed7a1a3a25a32717d54e -> 
+  custom:scripting/monoscript/fileName/CharacterControllerLink.cs: 2a5277c417dfd3601746ca8e64d826e8 -> 
+  custom:scripting/monoscript/fileName/MortarStrikeFactory.cs: d59dd62f10e27fece363d17e8ca38c96 -> 
+  custom:scripting/monoscript/fileName/FreezeStatusTag.cs: a7e073595df337e2330afd5ccdb117be -> 
+  custom:scripting/monoscript/fileName/CustomMinValueOnRemove.cs: 8cbbd6990d040428b1073966badb046a -> 
+  custom:scripting/monoscript/fileName/AddStatModifierRequest.cs: 2c9c0c977b989db7d08c74b937cfcdf1 -> 
+  custom:scripting/monoscript/fileName/ObtainedRewardsWindow.cs: da04545023e51eae96260e4c4b8539da -> 
+  custom:scripting/monoscript/fileName/ConeMeshGenerator.cs: 25a7cae736a1f295624f92d162c62677 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/MineExplodedMarker.cs: f1dc984bb068455d7966cf570b25a38c -> 
+  custom:scripting/monoscript/fileName/PoisonStatusTag.cs: 8a15a3d679b75bc2f6f0e5bd941f33e3 -> 
+  custom:scripting/monoscript/fileName/ChapterConfig.cs: c57ab75b741c203232d62f433a4d101c -> 
+  custom:scripting/monoscript/fileName/BaseToastNotification.cs: 8d168ec6f28224b75f90d35735b5b1f2 -> 
+  custom:scripting/monoscript/fileName/ApplyHealthRegenFromStatSystem.cs: 1f4ae90ba78c9b57d64c5a821113d34d -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MachineGunnerBurstState.cs: 12921edaf990094c456125c2a0b0e4ee -> 
+  custom:scripting/monoscript/fileName/BubbleView.cs: 233ad2600b90f8961b0601c590cb6356 -> 
+  custom:scripting/monoscript/fileName/UnifiedCollision.cs: 618efcf3fdd27b57b3fc6426804983c8 -> 
+  custom:scripting/monoscript/fileName/ExplosiveBarrelDestructionSystem.cs: f3438ea67fe63bf644ba7d325a3c7c12 -> 
+  custom:scripting/monoscript/fileName/CannonMovementSystem.cs: c77764429e895968e5756c2ead3c7108 -> 
+  custom:scripting/monoscript/fileName/StatImageFillDisplay.cs: cbfd89ef840e4f989faa83cc524180ad -> 
+  custom:scripting/monoscript/fileName/HitAnimationSystem.cs: 26a18a9d7d20612b89c410df1562e8a1 -> 
+  custom:scripting/monoscript/fileName/CaptureZoneService.cs: 90bdb5d801d4045651287ef66d26a2e7 -> 
+  custom:scripting/monoscript/fileName/Stats.cs: 8870edf5a0529f51122e97917c02af0a -> 
+  custom:scripting/monoscript/fileName/BonusChestTag.cs: ac9ca5edbfb5e06d994588b58b0770a5 -> 
+  custom:scripting/monoscript/fileName/RendererLink.cs: d2b018f5200e2ee54506ca9506b09e6b -> 
+  custom:scripting/monoscript/fileName/VFXData.cs: 66845c143bbfe71b4e39b10fd7e3b6de -> 
+  custom:scripting/monoscript/fileName/EvolutionaryIncubatorState.cs: 8df895ed102a87e285fd9eace626aa08 -> 
+  custom:scripting/monoscript/fileName/ExplosiveBarrelGenerationPreset.cs: 65ab255057c1959bbdf0380ba85ce804 -> 
+  custom:scripting/monoscript/fileName/NestedFadeGroup.cs: 186d4d627a2ae7acb6dc3b6f571456ad -> 
+  custom:scripting/monoscript/fileName/GateView.cs: e47f57d949b8ffb432934fb72ad8d57b -> 
+  custom:scripting/monoscript/fileName/ContactDamage.cs: 122e94a0b9617e90dc156434cb1693a7 -> 
+  custom:scripting/monoscript/fileName/SyncStatusPositionToTargetPositionSystem.cs: d67658566b97dcad5dc9e7928dec0d77 -> 
+  custom:scripting/monoscript/fileName/ProjectWindowDecorations.cs: 8e7059895d82a2a0d8f1261f35cc5b55 -> 
+  custom:scripting/monoscript/fileName/CashStoneGenerationPreset.cs: 5cc8830f5c6eba4ba09e9d5d46c05605 -> 
+  custom:scripting/monoscript/fileName/RemoveDamageImpactEventsSystem.cs: 43f50b08fcc95404202a7ac49dffb46b -> 
+  custom:scripting/monoscript/fileName/CrowdMemberEvolutionConfig.cs: e1c41e5e8f2500ff0b8e965e125041af -> 
+  custom:scripting/monoscript/fileName/ButtonPulser.cs: cd0bf4d4ec1c8fd99d383a4b21bb5fe9 -> 
+  custom:scripting/monoscript/fileName/DefeatState.cs: 52645f8451eee452f608854df7a2b055 -> 
+  custom:scripting/monoscript/fileName/MineGenerationPreset.cs: dc710ae55d6d56a0a325b694530cf06f -> 
+  custom:scripting/monoscript/fileName/ProjectileRangeLimitSystem.cs: 0227ec154f9569ba8b17368031419626 -> 
+  custom:scripting/monoscript/fileName/NestedFadeGroupBridgeAttribute.cs: 86fcf3fca417f4dad2b1236b81896dc2 -> 
+  custom:scripting/monoscript/fileName/AddStatModifierSystem.cs: 11e60c48b41a1c5fb54d653cd8be4dc2 -> 
+  custom:scripting/monoscript/fileName/CrowdMultiplySystem.cs: 1e298700d9b86142918232246920916d -> 
+  custom:scripting/monoscript/fileName/ClearStatModifiersSystem.cs: 57b83829c81d7e10a01d4ee80ac56131 -> 
+  custom:scripting/monoscript/fileName/MovementDirection.cs: 3fea48f4ecd704b3452bca346343b5a1 -> 
+  custom:scripting/monoscript/fileName/ProjectileConfig.cs: 8ea69ab9dfd635f79d6bf068948ebc50 -> 
+  custom:scripting/monoscript/fileName/MultiplyCrowdRequest.cs: 703a5830ca99de8e4e58bd7e8740eb30 -> 
+  custom:scripting/monoscript/fileName/LevelsDatabase.cs: 765c9bc6fac7f66d115c8e341fa1e75d -> 
+  custom:scripting/monoscript/fileName/LifeForceFeature.cs: 8177ca7db1b56f5e9c9d92a54128fa9b -> 
+  custom:scripting/monoscript/fileName/BarrelDestroyingMarker.cs: 12f8c5cc561ce399c37f04ba027c13df -> 
+  custom:scripting/monoscript/fileName/WaveIndicator.cs: 3dd37b607caa3343a2d641299bf9f222 -> 
+  custom:scripting/monoscript/fileName/AlertService.cs: ccb250a8aeb1d4435721bcc9abdb78fc -> 
+  custom:scripting/monoscript/fileName/ConfigsService.cs: a9742116cac5f810917cc0ae3988ed8a -> 
+  custom:scripting/monoscript/fileName/FinishTrigger.cs: d3f36b71e9c8e221895003795f4cda48 -> 
+  custom:scripting/monoscript/fileName/ApplyPoisonVisualsSystem.cs: 3a6067ed7b06b8b724551a5711b19317 -> 
+  custom:scripting/monoscript/fileName/ApplyHealthFromStatSystem.cs: e06c985402e6724916e2781530f6f388 -> 
+  custom:scripting/monoscript/fileName/CurrencyView.cs: 5dbf6e5b4ca3d65d967b6107c711dc91 -> 
+  custom:scripting/monoscript/fileName/WatchTowerView.cs: 6118188f90b53d40116f336286edfd32 -> 
+  custom:scripting/monoscript/fileName/RiflemanShootingSystem.cs: c4037b706dc97a4e208615a855498159 -> 
+  custom:scripting/monoscript/fileName/FinishReachedEvent.cs: 3e1e859e4ef8a123598686f598f47aad -> 
+  custom:scripting/monoscript/fileName/InteractiveObjectTag.cs: 835e4b57c3815c38ee8ffbc5b01b94d2 -> 
+  custom:scripting/monoscript/fileName/AllEnemiesDefeatedEvent.cs: 06a0e3e030a100d10ffc878297b025e4 -> 
+  custom:scripting/monoscript/fileName/TimeScaleController.cs: a176df81e6b03d87bd149d4ca5aab2cd -> 
+  custom:scripting/monoscript/fileName/LoadingCurtain.cs: 85a399ec7a6034f57f6df01fc34ebd4d -> 
+  custom:scripting/monoscript/fileName/EnemyExplosionSystem.cs: feab0ac87b1276ad2003b3aa672a2c8d -> 
+  custom:scripting/monoscript/fileName/ProjectileFactory.cs: 65415201e10a040283f62b9f39eb8511 -> 
+  custom:scripting/monoscript/fileName/DamagedEvent.cs: 4606b1010af7582d0287dea8c8b2149a -> 
+  custom:scripting/monoscript/fileName/CurrencyTarget.cs: d113839afc27404c9a034b5b0ea372ff -> 
+  custom:scripting/monoscript/fileName/AffectsBaseValueMarker.cs: 193809dab3fe2c9d7490b128c23bcd86 -> 
+  custom:scripting/monoscript/fileName/ApplyUpgradeRequest.cs: a1add4f5808d78c69499349c66e121d8 -> 
+  custom:scripting/monoscript/fileName/ModifierId.cs: 0dd93f029d50b447f174e6e756a2cbe6 -> 
+  custom:scripting/monoscript/fileName/DestructionVFXLink.cs: 88f7e0824e1b348c900a696bab3f236e -> 
+  custom:scripting/monoscript/fileName/StatusAppliedMarker.cs: d0d81be4c410dffb8b1575f7af339738 -> 
+  custom:scripting/monoscript/fileName/CrowdMemberView.cs: e10fa92bee10273aa27113c25fd2eb49 -> 
+  custom:scripting/monoscript/fileName/ObjectGenerator.cs: 3cb86a518aee085dd21222da507ee433 -> 
+  custom:scripting/monoscript/fileName/DamageImpactSystem.cs: 49985a2baf72ea76d3c73cbfd1325e3b -> 
+  custom:scripting/monoscript/fileName/TriggerStayEvent.cs: b61c3d0170089c7e8f1a5e671b665b6e -> 
+  custom:scripting/monoscript/fileName/MineView.cs: 47583555cfb709c4a6c0999ae9354184 -> 
+  custom:scripting/monoscript/fileName/SettingsPopup.cs: 2469e40c1c9989b836236e4ca9f53b88 -> 
+  custom:scripting/monoscript/fileName/ExplosiveBarrelTag.cs: 6386f08f562dcc4ffc5ed9dc602e8d06 -> 
+  custom:scripting/monoscript/fileName/CrowdMemberDyingMarker.cs: b605cf3e091444f6a9053a4b561a8b92 -> 
+  custom:scripting/monoscript/fileName/CommonStealthObjectView.cs: 79daac6c5411a65944da56c1e7d75f99 -> 
+  custom:scripting/monoscript/fileName/EnemyEmplacementGenerationPreset.cs: bf4643cfd7525b2853a5cc01faf50e29 -> 
+  custom:scripting/monoscript/fileName/ExcludeFromBuildComponent.cs: ae0aa645f1be5c5f5ad2a95b7cb823ff -> 
+  custom:scripting/monoscript/fileName/ProjectileImpactSystem.cs: 9a1f075f6c89012f885ccad28e44ac23 -> 
+  custom:scripting/monoscript/fileName/VFXService.cs: 1c58b5c44a6ad5abe21f783c822a811e -> 
+  custom:scripting/monoscript/fileName/PipView.cs: 2e2a680690da918d297c57c66deeedff -> 
+  custom:scripting/monoscript/fileName/StatusSetups.cs: 69ac496a1e5bdc11be0be40790f5d639 -> 
+  custom:scripting/monoscript/fileName/HitAnimationMarker.cs: 8dbdf6d37ab17fcdd6a6a5790b2640df -> 
+  custom:scripting/monoscript/fileName/ProjectileImpactRequest.cs: 1921bc9db7c5be22c1fc49e34f820574 -> 
+  custom:scripting/monoscript/fileName/GameplayStatsFeature.cs: e6a0f29c9cdd020742b7dd44d8b20c1b -> 
+  custom:scripting/monoscript/fileName/MaterialShaderFixer.cs: 26362c12840677ca9d11ee54b897035d -> 
+  custom:scripting/monoscript/fileName/PrepareStatModifiersSystem.cs: 40a1e37fb7ecb340ccbbda33858d6d64 -> 
+  custom:scripting/monoscript/fileName/InteractiveObjectConfig.cs: 0b478eadc5773be884590415f6aea20f -> 
+  custom:scripting/monoscript/fileName/DecorativeMemberView.cs: 539b3d4d990cdb4888f1b45bfde6d4a1 -> 
+  custom:scripting/monoscript/fileName/CommonInteractiveObjectView.cs: 6f3596b4698e123bfaf1eef45541cde7 -> 
+  custom:scripting/monoscript/fileName/CivilianCrowdMemberView.cs: 93721141222bd1554282c5d8e896517f -> 
+  custom:scripting/monoscript/fileName/MenuState.cs: 207d2ab38eb10006cd209142a35ab989 -> 
+  custom:scripting/monoscript/fileName/CreateStatusRequest.cs: ec294c33f75a2cf7e2f91c3e0a37ee53 -> 
+  custom:scripting/monoscript/fileName/CurrencySwirlGatherSpawner.cs: 361193d9ba56974c3f97752a0eb5b813 -> 
+  custom:scripting/monoscript/fileName/DamageFlash.cs: 4a2fc46a62518a9a0ec0ddcb8ea7b7fd -> 
+  custom:scripting/monoscript/fileName/BubbleDestructionSystem.cs: 323d1a058e759d82586eedc649bf361a -> 
+  custom:scripting/monoscript/fileName/CurrencySwirlGatherAnimation.cs: 07f41d793b381123dfeaee91db8da7d4 -> 
+  custom:scripting/monoscript/fileName/StopMovementMarker.cs: cc600deaacb0f8072160507d0e92ff8a -> 
+  custom:scripting/monoscript/fileName/IncreaseModifierMarker.cs: 120a531732f60b214a9fdb88557a4649 -> 
+  custom:scripting/precompiled-assembly-types:Sirenix.OdinInspector.Modules.UnityMathematics: 0daeba2df2804242256ba419ce6e64ba -> 
+  custom:scripting/monoscript/fileName/ProjectileView.cs: e1dfac562103db6fbeb5d09507a16a72 -> 
+  custom:scripting/monoscript/fileName/StatusTimeLeft.cs: 67e4de706348ff5e16b087c348820a20 -> 
+  custom:scripting/monoscript/fileName/CrowdOrganization.cs: 2efee6d0a12ffcb2807fe1116c15046e -> 
+  custom:scripting/monoscript/fileName/WatchTowerSystem.cs: c46e9742670c3f39887fca4e9ce26237 -> 
+  custom:scripting/monoscript/fileName/EnemyDestructionSystem.cs: 9de0c0f04c6beeb3117097e35ad773be -> 
+  custom:scripting/monoscript/fileName/ExitConfirmationPopup.cs: e4aecd0ddcc14edad2e9de593b02ded2 -> 
+  custom:scripting/monoscript/fileName/ETFXLightFade.cs: bc15e838f9d3884226cb2e9af0c78277 -> 
+  custom:scripting/monoscript/fileName/ShowDamagePopupMarker.cs: a0bed69f34cdd64029535cc2d1466df0 -> 
+  custom:scripting/monoscript/fileName/CrowdAddMembersSystem.cs: 20cc31fcba45dd25e5bf1d0a7f790e94 -> 
+  custom:scripting/monoscript/fileName/AddCrowdMembersRequest.cs: 7f0af22eaa1ac32d490d258ba32d711d -> 
+  custom:scripting/monoscript/fileName/CrowdMovableBounds.cs: a6b80c99d1fb99d6cdcec6b11bd62b0b -> 
+  custom:scripting/monoscript/fileName/SelfDestructTimer.cs: ccb70da1ba72b69c22491fc4923a2af5 -> 
+  custom:scripting/monoscript/fileName/TransformToPositionSyncSystem.cs: 47701465dc970967169fca996883d971 -> 
+  custom:scripting/monoscript/fileName/ApplyFreezeVisualsSystem.cs: 1efb87ca9b8b293c23e4071068e5edc6 -> 
+  custom:scripting/monoscript/fileName/BubbleState.cs: 8c10e38bdab403ffa9577a0af51f80de -> 
+  custom:scripting/monoscript/fileName/PointerUpEvent.cs: def2fd7e29a59558d96f978c58d7f1a1 -> 
+  custom:scripting/monoscript/fileName/NestedFadeGroupRetarget.cs: 35939ab147d1df748ac8c3b51c0351d6 -> 
+  custom:scripting/monoscript/fileName/StatusVisualsReference.cs: 049e96a235608beb46e2dbed3a41866d -> 
+  custom:scripting/monoscript/fileName/ToastService.cs: 556fcd4e92da0ba947a16a90ce207476 -> 
+  custom:scripting/monoscript/fileName/HealthDisplayLink.cs: eabad444d853b1788bcc57657bf59b6b -> 
+  custom:scripting/monoscript/fileName/GameplayState.cs: bbcd47576cfa9335b1c07c80711daf8e -> 
+  custom:scripting/monoscript/fileName/CurrencyFlyAnimationService.cs: 727092fc062f1bf2957e37c9d094d350 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CollisionFeature.cs: edcb93ff47faced130864d62aa4dab7b -> 
+  custom:scripting/monoscript/fileName/CrowdFactory.cs: f3912c34cbd0626d342339f6f8dfe634 -> 
+  custom:scripting/monoscript/fileName/ColliderLink.cs: 571327ceeb65d16173869767b6e26253 -> 
+  custom:scripting/monoscript/fileName/CannonGenerationPreset.cs: 66db35ed68849a82f05afbc9e22ab42d -> 
+  custom:scripting/monoscript/fileName/CannonDestroyingMarker.cs: ca0e7f6bceb78fb42a8fb2a4ecc83fe3 -> 
+  custom:scripting/monoscript/fileName/ApplyDamageFromStatSystem.cs: 27338eea02d227f5f6baed9a8b118068 -> 
+  custom:scripting/monoscript/fileName/BubbleGenerationPreset.cs: f7e5a7147d5d36c29b7f17e0f8201949 -> 
+  custom:scripting/monoscript/fileName/ButtonSound.cs: c0d0c113d60f24648c2bac63e60d7b8a -> 
+  custom:scripting/monoscript/fileName/UnapplyPoisonVisualsSystem.cs: 805a63199731d0dcf2f89de04677b976 -> 
+  custom:scripting/monoscript/fileName/SelfDestructSystem.cs: 2735767482f1a6ced48736f46e4bf66a -> 
+  custom:scripting/monoscript/fileName/ProjectileModifiers.cs: 51a7297783fb23e9df6faff6812e0408 -> 
+  custom:scripting/monoscript/fileName/EnemyTag.cs: b34a103b8c9de0527200af3c5f90726a -> 
+  custom:scripting/monoscript/fileName/StatModifierSetups.cs: 6a27e81e9a1acee7bbaaf6d4c0bc9155 -> 
+  custom:scripting/monoscript/fileName/BaseRewardCard.cs: 8fa0f75c7d9591a6396c81ccd173faa1 -> 
+  custom:scripting/monoscript/fileName/MockAdPopup.cs: 69e88c2ed33ccc665148d89473072945 -> 
+  custom:scripting/monoscript/fileName/CrowdView.cs: eae297e87fc0156614d3cbcb971d0835 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MineExplosionSystem.cs: 684f601af483f0120cc6086e0504041d -> 
+  custom:scripting/monoscript/fileName/BubbleMovement.cs: ea04e589880c6d2282eae4dc1d06fa5f -> 
+  custom:scripting/monoscript/fileName/RequestRemoveModifierSystem.cs: a562c55591b4d12e402abae23c9b77a8 -> 
+  custom:scripting/monoscript/fileName/ImmortalMarker.cs: 3f3fe24e2a76ccbb58a0163de64576d5 -> 
+  custom:scripting/monoscript/fileName/WatchTowerGenerationPreset.cs: f30e0a589ea98f1c86a4714d36a7d4af -> 
+  custom:scripting/monoscript/fileName/GateActivationSystem.cs: f7cc2c8b31b2bdb8367a71a7d7cdeb34 -> 
+  custom:scripting/monoscript/fileName/OrganizeCrowdSystem.cs: 2ec2e63876b96aec2096c4fa3d526597 -> 
+  custom:scripting/monoscript/fileName/RewardCard.cs: 150fb5acad18f9e13f173692d674e64a -> 
+  custom:scripting/monoscript/fileName/SliderPointerHandler.cs: 6e85f5d4185bdf7822be51ace9c77796 -> 
+  custom:scripting/monoscript/fileName/ApplyCooldownFromStatSystem.cs: 137f7d82c2ab86bc799c3fd7a501d5dc -> 
+  custom:scripting/monoscript/fileName/ExplosiveBarrelDestroyingMarker.cs: 3d067aefac902e35f62188dcfd439441 -> 
+  custom:scripting/monoscript/fileName/CrowdRemoveMembersSystem.cs: 172afe1430235d03b2da8ccb9e91123e -> 
+  custom:scripting/monoscript/fileName/WatchTower.cs: 5f55e992da76876148c65c21e209cee0 -> 
+  custom:scripting/monoscript/fileName/CrowdMemberEvolution.cs: afe7bb82dd740ce941ec3e1f57fd3ac7 -> 
+  custom:scripting/monoscript/fileName/CaptureZoneDestroyMarker.cs: 3071c4ca6ca62d7e11fef66cc0419ac2 -> 
+  custom:scripting/monoscript/fileName/BonusChestTriggerSystem.cs: 95d71fda0363c08a7f23e73959963323 -> 
+  custom:scripting/monoscript/fileName/LevelService.cs: 7952a5b4349725b0ce3bc145c2278e59 -> 
+  custom:scripting/monoscript/fileName/BuildTargetChangeDetector.cs: 5b1c41556a571d46f1b3362cc8f63078 -> 
+  custom:scripting/monoscript/fileName/ApplyOwnerBaseHealthBonusSystem.cs: e5917349cc203a0b803717b52ceb8186 -> 
+  custom:scripting/monoscript/fileName/UpgradeAppliedEvent.cs: 72b2198472b99c14d0c896f486a61a06 -> 
+  custom:scripting/monoscript/fileName/StackableStatusMarker.cs: 5f29858af951ffed47e08bbe0593e024 -> 
+  custom:scripting/monoscript/fileName/CannonMovementSettings.cs: d7c4e078c24b407dfe85ea05900c5fba -> 
+  custom:scripting/monoscript/fileName/CollectibleTag.cs: 09f288af4dda5684c31389d7555871f1 -> 
+  custom:scripting/monoscript/fileName/DamageFlashSystem.cs: bfb76f1e710e3ef85cbd952969e5370e -> 
+  custom:scripting/monoscript/fileName/MovementSettings.cs: f02a7d1d0376ca78d14a51e74129ce50 -> 
+  custom:scripting/monoscript/fileName/CollectibleDestroyingMarker.cs: 3a827bf2586c1c7447af564e9af56383 -> 
+  custom:scripting/monoscript/fileName/NoAdRewardChancesToast.cs: 5fc47c3b4fee3879c557bd9b1ca97f45 -> 
+  custom:scripting/monoscript/fileName/VictoryState.cs: a4a6278de96a923c24c95424a1ec19c4 -> 
+  custom:scripting/monoscript/fileName/MineDestroyingMarker.cs: 17e16ef8e7e85f1480e10bd879aeec80 -> 
+  custom:scripting/monoscript/fileName/CurrencyLabel.cs: 76a992792d02b02ac9f11fddc2581d01 -> 
+  custom:scripting/monoscript/fileName/LevelLabel.cs: 2b21a3d453061c56212dc76e705559b9 -> 
+  custom:scripting/monoscript/fileName/CurrencyReward.cs: da73c35cba3df17c91e61878fc83c59a -> 
+  custom:scripting/monoscript/fileName/HitVFXTag.cs: 01247f55b2459e0c710e49fcaa3675e3 -> 
+  custom:scripting/monoscript/fileName/ShootingRange.cs: eea9b87da42ffc7641c5fe08582d93d5 -> 
+  custom:scripting/monoscript/fileName/RunStatisticsService.cs: 4d238353961c194d32a77970457ffe8d -> 
+  custom:scripting/monoscript/fileName/CrowdMemberFormation.cs: 09f43c555fae8fb07f8dba18c899acc3 -> 
+  custom:scripting/monoscript/fileName/NestedFadeGroupParticleSystem.cs: dcda3384b85f219df5070b19b1b68238 -> 
+  custom:scripting/monoscript/fileName/EnemyMovement.cs: 887c56d42fe5ad00622c05e3d3759b59 -> 
+  custom:scripting/monoscript/fileName/PrefabPreProcessor.cs: 4629442cd7b82e68264c11954cabd40c -> 
+  custom:scripting/monoscript/fileName/GateState.cs: d21364045e101443825ea92e884b2476 -> 
+  custom:scripting/monoscript/fileName/AttackCooldown.cs: f652c66554e5e65589744ed8daefc8df -> 
+  custom:scripting/monoscript/fileName/HealthRegen.cs: 1678f0b7b3af7bc4c944058c83015769 -> 
+  custom:scripting/monoscript/fileName/StealthFeature.cs: b8ec119dedcd30249f3804b9241bbb0f -> 
+  custom:scripting/monoscript/fileName/NestedFadeGroupTests.cs: 8c3884801febf620678062aabc04e585 -> 
+  custom:scripting/monoscript/fileName/CrowdExtinctEvent.cs: 6c118f0c8c7a904c09c70cb1cb1f28e1 -> 
+  custom:scripting/monoscript/fileName/CrowdMemberRemovedEvent.cs: 99c29f11d8ff6ce0c0e59e4eae853115 -> 
+  custom:scripting/monoscript/fileName/DefenseModeConfig.cs: 7eff6cc7f87e43f3ff3c5f77e5dc7f6d -> 
+  custom:scripting/monoscript/fileName/CrowdRectangularFormationService.cs: 2d2404aa4794002409b9d6b756f911c0 -> 
+  custom:scripting/monoscript/fileName/GateDestroyMarker.cs: 3957a48295a74038caeaa41b3d6ed5c5 -> 
+  custom:scripting/monoscript/fileName/EvolutionaryIncubatorGenerationPreset.cs: 36e0d4fc84c5e746b0dea7a48d4e9d3b -> 
+  custom:scripting/monoscript/fileName/CollectibleCollectionSystem.cs: 97be410ce41273020a04a60c82ce7862 -> 
+  custom:scripting/monoscript/fileName/GameFeature.cs: a23f01a8e62349777ea667c862533c20 -> 
+  custom:scripting/monoscript/fileName/SpriteRendererProvider.cs: 843b272a244a3a32ab10288c4ea0a013 -> 
+  custom:scripting/monoscript/fileName/CrowdMembersDeathSystem.cs: 9026bb62cd3e93be201ada3de2369d1c -> 
+  custom:scripting/monoscript/fileName/MineDestructionSystem.cs: 0108025dc1400ebb020323f89a498709 -> 
+  custom:scripting/monoscript/fileName/ModifierValue.cs: 1bc8403351fd8ed435b43f41fb21d86a -> 
+  custom:scripting/monoscript/fileName/StatusEnhancements.cs: 5732eb9d05ca598293d9d112e69853b2 -> 
+  custom:scripting/monoscript/fileName/DamagedTankGenerationPreset.cs: 6f54c586bc8291d83e2507c92e71e1aa -> 
+  custom:scripting/monoscript/fileName/CashStoneView.cs: bd36a4f73014d66367fb806b58f23bf4 -> 
+  custom:scripting/precompiled-assembly-types:BuildPipelineFeature: 2f7571f7dea9db5f5c73093a7d835f21 -> 
+  custom:scripting/monoscript/fileName/Alert.cs: 23022c914fc87c1eacdc489850e7fea3 -> 
+  custom:scripting/monoscript/fileName/DamagedTankDestructionSystem.cs: 12740900294dedd1c6c917ac5737de98 -> 
+  custom:scripting/monoscript/fileName/ApplyUpgradesSystem.cs: 7c8a96aa7353e1ec5acd66fba9f06db9 -> 
+  custom:scripting/monoscript/fileName/NestedFadeGroupTextMeshPro.cs: 2daffe2b4f728f648e50aa46bcfb1b37 -> 
+  custom:scripting/monoscript/fileName/BubbleActivationSystem.cs: 00dbff3bf1de57e21003c5d6ea0d2052 -> 
+  custom:scripting/monoscript/fileName/ShineEffect.cs: 3b5a05aceab8fdb42119f3e4f5e14d13 -> 
+  custom:scripting/monoscript/fileName/DestroyDeadStatusesSystem.cs: 4953dc246fdd27bf2ba8927c2c035aa4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EffectTypeReference.cs: 7f2244a392b07640df47d4600e070be3 -> 
+  custom:scripting/monoscript/fileName/UIRoot.cs: 05e22b9a629a026d5b71a01a36127f3b -> 
+  custom:scripting/monoscript/fileName/BonusChestOpenedEvent.cs: d4fbdbbd0eb694c3b024670335a04bd7 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: b2bc035f6cd0721442018bf044bee4ac -> 
+  custom:scripting/monoscript/fileName/CrowdConfig.cs: 1cdffdc1bafdd60064ceb9b27f0d3228 -> 
+  custom:scripting/monoscript/fileName/RemoveStatModificationRequestsSystem.cs: 124f616cce6b8cd08ee29253b50edee8 -> 
+  custom:scripting/monoscript/fileName/GateConfig.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DistanceProgressBar.cs: 3cd5be1af481b5879a117ab06a5dcfc2 -> 
+  custom:scripting/monoscript/fileName/StatusAffectedMarker.cs: 19e69225c0c499635161c912fa28a52a -> 
+  custom:scripting/monoscript/fileName/PeriodicStatusSystem.cs: 38ecda0f2e55309bff5783ad009dafe8 -> 
+  custom:scripting/monoscript/fileName/DecreaseModifierMarker.cs: b9d18cfeaaf0bea2d53fadac078a8575 -> 
+  custom:scripting/monoscript/fileName/BubbleConfig.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/PartRenderers.cs: 77ac4de2c6a5a051f6e1fbc602cf79f7 -> 
+  custom:scripting/monoscript/fileName/EvolutionCrowdRequest.cs: 144db6112c63e475d490364c82fe4899 -> 
+  custom:scripting/monoscript/fileName/CreateStatusSystem.cs: ace493197000c1933caba9798c97b08a -> 
+  custom:scripting/monoscript/fileName/ProjectileTag.cs: 280f4297eb5e2875de3275cf9f25273d -> 
+  custom:scripting/monoscript/fileName/BubbleDestroyMarker.cs: 065a06b37aac4c170963df4f6682324e -> 
+  custom:scripting/monoscript/fileName/StatusRemovedEvent.cs: 0eaffa2ae3305269f5b20ba9e87fbfd7 -> 
+  custom:scripting/monoscript/fileName/GateTag.cs: a6a31df29e49caa697e8068f5c833efb -> 
+  custom:scripting/monoscript/fileName/EntityExtensions.cs: e8e4fdc83e8086e7468af5df925606c7 -> e783ec5171948d96d38808b7ac3a40e9
+  custom:scripting/monoscript/fileName/NotEnoughCurrencyToast.cs: 017d5355915be346fb77304d4728d2ac -> 
+  custom:scripting/monoscript/fileName/CurrencySwirlGatherAnimationConfig.cs: bef6a685e4a6f5ecd7c236ec4e216dfe -> 
+  custom:scripting/monoscript/fileName/MachineGunnerEnemy.cs: 94fa99edc4d89e3f303778608f2cc34f -> 
+  custom:scripting/monoscript/fileName/GameSpeedButton.cs: 1bd43cf843f985b9875947ab1d1d3cbe -> 
+  custom:scripting/monoscript/fileName/GenerationSettings.cs: c326578347ebb470f6fa09ec8de18790 -> 
+  custom:scripting/monoscript/fileName/ShooterEnemy.cs: 10eb36972ff641b31962f7d9d9de581b -> 
+  custom:scripting/monoscript/fileName/GameEndEventSystem.cs: 6c539da7d89b88cb7614703ad00f4fd1 -> 
+  custom:scripting/monoscript/fileName/MortarStrikeState.cs: 07a221d592bcb7e45479cf5880220a03 -> 
+  custom:scripting/monoscript/fileName/BubbleDestroyingMaker.cs: 0e8aecd96546b9453dcf494c2b2d98e5 -> 
+  custom:scripting/monoscript/fileName/SceneLoader.cs: 54eb276dd1d5c68306416b8c7a74abaf -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7483bfdd2a75e542e1b7925230a3bdec -> 
+  custom:scripting/monoscript/fileName/MortarStrikeSchedulerSystem.cs: a3a9ce16e6d13d35d038d1c85aee4c50 -> 
+  custom:scripting/monoscript/fileName/RemoveStatModifierRequest.cs: 891d2a8608e48c5ee16c4ce746a85a21 -> 
+  custom:scripting/monoscript/fileName/EnemyEmplacementView.cs: fb5807c0e9c27b75ab00022487cef2e8 -> 
+  custom:scripting/monoscript/fileName/EnemyGroupGenerationPreset.cs: f8fe0ea04123683570bff8bb6cc5f968 -> 
+  custom:scripting/monoscript/fileName/EFBTranslatorExtended.cs: 8510e5b26984b935f48a9b0bc91cc1b0 -> 
+  custom:scripting/monoscript/fileName/CaptureZoneState.cs: 71c859b9b703f1c132061cb9029efff1 -> 
+  custom:scripting/monoscript/fileName/FinishTriggerSystem.cs: 43d52481d9c811c2ab2d541631d20fe4 -> 
+  custom:scripting/monoscript/fileName/StatusPeriod.cs: ea481a0eef8dae860bafc621638bc908 -> 
+  custom:scripting/monoscript/fileName/ChaptersPopup.cs: 3742fe67a0e7e22bdc1d83dfae41245c -> 
+  custom:scripting/monoscript/fileName/MilitaryPopulationChangedEvent.cs: 7c73cd9afc5d1659ab015a361a53b3e8 -> 
+  custom:scripting/monoscript/fileName/StealthObjectView.cs: fe5a1051f1dd22960fd436b6735fcc92 -> 
+  custom:scripting/monoscript/fileName/RewardsLink.cs: e2d9c2aa8b5f628677c9b9296c4b65db -> 
+  custom:scripting/monoscript/fileName/ObjectGenerationPreset.cs: e64555757cfced42411186def2f7d468 -> 
+  custom:scripting/monoscript/fileName/ButtonCooldown.cs: f3e28ce80c9bdec34eb09d66dff3d7bd -> 
+  custom:scripting/monoscript/fileName/ExplosionOnImpact.cs: a1b1ecfd10328dfd895934c71115e30d -> 
+  custom:scripting/monoscript/fileName/UpgradeCardsPanel.cs: a10f1de90e3353d306b9aa58e7cb0ba3 -> 
+  custom:scripting/monoscript/fileName/WatchTowerTag.cs: 575de6ffea0c3d624354db51fb2ee32e -> 
+  custom:scripting/monoscript/fileName/ImpactPoint.cs: 5ec4061f0510a7f30644cf4e35b58cb8 -> 
+  custom:scripting/monoscript/fileName/Rewards.cs: 86ac0d760777752124a50f03e7ff3623 -> 
+  custom:scripting/monoscript/fileName/StatBarDisplay.cs: 97a045d0d2e4bc7fcd009773b9ff9e81 -> 
+  custom:scripting/monoscript/fileName/EnhancementService.cs: 9195779c7faf5a774c279e118ba24b6c -> 
+  custom:scripting/monoscript/fileName/VisionCone.cs: 2ecd97166e29623e69a00bc726d7fda4 -> 
+  custom:scripting/monoscript/fileName/CharacterAnimator.cs: 6a9fdfd59a29b0174a904b5d8293d529 -> 
+  custom:scripting/monoscript/fileName/RewardsBuilder.cs: c0ae9c8cd299e5af5d15d324ee41e88f -> 
+  custom:scripting/monoscript/fileName/CannonFiringSystem.cs: 0b5334f8b4fb8cde280e91c20ba332e5 -> 
+  custom:scripting/monoscript/fileName/ProjectileDestroySystem.cs: 9062da54531be42d2959f318b8b153bf -> 

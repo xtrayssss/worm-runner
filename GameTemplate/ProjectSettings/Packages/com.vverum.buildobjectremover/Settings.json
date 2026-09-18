@@ -1,0 +1,11 @@
+{
+    "m_Dictionary": {
+        "m_DictionaryValues": [
+            {
+                "type": "Vverum.Tools.BuildObjectRemover.RemoveTagData[], Vverum.BuildObjectRemover.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "key": "TagsData",
+                "value": "{\"m_Value\":[{\"buildTarget\":-2,\"enable\":true,\"tag\":\"EditorOnly\",\"runType\":6}]}"
+            }
+        ]
+    }
+}

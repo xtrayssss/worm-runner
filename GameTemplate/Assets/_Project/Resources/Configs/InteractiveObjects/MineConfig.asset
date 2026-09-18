@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ef9c568068440598efe516b7ba87bc6, type: 3}
+  m_Name: MineConfig
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 5636719430605669091, guid: 3cf580b3122c6674f90d46065994559b, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _interactiveObjectData
+      Entry: 7
+      Data: 0|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.InteractiveObjectData,
+        Assembly-CSharp
+    - Name: _id
+      Entry: 3
+      Data: 10
+    - Name: _interactiveObjectPrefab
+      Entry: 10
+      Data: 0
+    - Name: _maxHealth
+      Entry: 4
+      Data: 10
+    - Name: _rewards
+      Entry: 6
+      Data: 
+    - Name: _evolutionaryIncubatorConfig
+      Entry: 6
+      Data: 
+    - Name: _gateConfig
+      Entry: 6
+      Data: 
+    - Name: _bubbleConfig
+      Entry: 6
+      Data: 
+    - Name: _cannonConfig
+      Entry: 6
+      Data: 
+    - Name: _mineConfig
+      Entry: 7
+      Data: 1|_Project.Scripts.Gameplay.Features.InteractiveObjectsFeature.Configs.MineConfig,
+        Assembly-CSharp
+    - Name: _armingDelay
+      Entry: 4
+      Data: 0.2
+    - Name: _explosionRadius
+      Entry: 4
+      Data: 3
+    - Name: _showDetectionRadius
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _contactDamageData
+      Entry: 6
+      Data: 
+    - Name: _enemyConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyEmplacementConfig
+      Entry: 6
+      Data: 
+    - Name: _enemyGroupConfig
+      Entry: 6
+      Data: 
+    - Name: _captureZoneConfig
+      Entry: 6
+      Data: 
+    - Name: _collectibleConfig
+      Entry: 6
+      Data: 
+    - Name: _patrolGuardConfig
+      Entry: 6
+      Data: 
+    - Name: _watchTowerConfig
+      Entry: 6
+      Data: 
+    - Name: _explosiveBarrelConfig
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

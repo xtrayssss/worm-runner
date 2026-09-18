@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 520697915ef8401ebb3fac5c5e459407, type: 3}
+  m_Name: CrowdConfig
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _crowdPrefab: {fileID: 5691502133674631519, guid: 6256e3037bbda4abc83e99c342c16658, type: 3}
+  _followCameraPrefab: {fileID: 3199483932103154053, guid: cd6d6c6d2896c82429342ded1f54895e, type: 3}
+  _maxPopulation: 15
+  _horizontalMoveSpeed: 3.5
+  _forwardMoveSpeed: 5
+  _horizontalSmoothingTime: 0.13
+  _forwardSmoothingTime: 0
+  _militaryMemberPrefab: {fileID: 3126277800042405171, guid: b016e7e0e9df2e043866c2c441b393b4, type: 3}
+  _civilianMemberPrefab: {fileID: 1990671152471856789, guid: 641b0165ad8fa4c4ab0d5aaf9e034433, type: 3}
+  _shootingCooldown: 0.5
+  _damage: -10
+  _pipsPerTier: 4
+  _shootingRange: 25
+  _evolutions:
+  - _sprite: {fileID: 21300000, guid: 55cee70419aecb24e938715e47165b92, type: 3}
+    _damagePercent: 0
+    _cooldownPercent: 0
+    _healthPercent: 0
+  - _sprite: {fileID: 0}
+    _damagePercent: 0.03
+    _cooldownPercent: -0.03
+    _healthPercent: 0.03
+  - _sprite: {fileID: 0}
+    _damagePercent: 0.03
+    _cooldownPercent: -0.03
+    _healthPercent: 0.03
+  - _sprite: {fileID: 0}
+    _damagePercent: 0.03
+    _cooldownPercent: -0.03
+    _healthPercent: 0.03
+  - _sprite: {fileID: 21300000, guid: 402c66274aec75146ac8706fc9d79ea4, type: 3}
+    _damagePercent: 0.03
+    _cooldownPercent: -0.03
+    _healthPercent: 0.03
+  - _sprite: {fileID: 0}
+    _damagePercent: 0.03
+    _cooldownPercent: -0.03
+    _healthPercent: 0.03
+  - _sprite: {fileID: 0}
+    _damagePercent: 0.03
+    _cooldownPercent: -0.03
+    _healthPercent: 0.03
+  - _sprite: {fileID: 0}
+    _damagePercent: 0.03
+    _cooldownPercent: -0.03
+    _healthPercent: 0.03
+  - _sprite: {fileID: 21300000, guid: ce919abce92ff5d46b05716b734de3f7, type: 3}
+    _damagePercent: 0.03
+    _cooldownPercent: -0.03
+    _healthPercent: 0.03
+  - _sprite: {fileID: 0}
+    _damagePercent: 0.03
+    _cooldownPercent: -0.03
+    _healthPercent: 0.03
+  - _sprite: {fileID: 0}
+    _damagePercent: 0.03
+    _cooldownPercent: -0.03
+    _healthPercent: 0.03
+  - _sprite: {fileID: 0}
+    _damagePercent: 0.03
+    _cooldownPercent: -0.03
+    _healthPercent: 0.03
+  - _sprite: {fileID: 21300000, guid: 3bc2c5ce94e1e4f44a8f0dfff3e53955, type: 3}
+    _damagePercent: 0.03
+    _cooldownPercent: -0.03
+    _healthPercent: 0.03

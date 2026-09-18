@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5d87d62d424155ab05d9d42a55e5da, type: 3}
+  m_Name: Chapter_Desert
+  m_EditorClassIdentifier: 
+  _biome:
+    _fogColor: {r: 0.81960785, g: 0.7058824, b: 0.4745098, a: 1}
+    _fogParticleAlpha: 0.50980395
+    _roadColor: {r: 1, g: 0.95686275, b: 0.8666667, a: 1}
+    _groundSprite: {fileID: 21300000, guid: d7942243bc812284ba6f1c4968a04779, type: 3}
+  _levels:
+  - {fileID: 11400000, guid: 456f14f9eec793b489b18a715afadc4f, type: 2}
+  - {fileID: 11400000, guid: fb7a03dd810782b4ca549f6e9e2f5c70, type: 2}
+  - {fileID: 11400000, guid: ab13b1df47e45a949890e1fb1d99f90a, type: 2}
+  - {fileID: 11400000, guid: 38e8bae28deb5ea4cad3ba58138f59fd, type: 2}
+  - {fileID: 11400000, guid: 951db79afdea95049a8d969c196bdc13, type: 2}

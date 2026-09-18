@@ -1,0 +1,30 @@
+{
+    "name": "LocalizationFeature",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a709227297f84cbc899e45aeaedd1f7f",
+        "GUID:eec0964c48f6f4e40bc3ec2257ccf8c5",
+        "GUID:e2c3782dc6445491e87d280768bacab5",
+        "GUID:84651a3751eca9349aac36a66bba901b",
+        "GUID:85255f4d3f384ef48e2d00d946462814",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "USE_LOCALIZATION"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.localization",
+            "expression": "",
+            "define": "USE_LOCALIZATION"
+        }
+    ],
+    "noEngineReferences": false
+}

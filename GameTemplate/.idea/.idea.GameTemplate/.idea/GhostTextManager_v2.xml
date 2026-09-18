@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GhostTextManager">
+    <option name="inputs">
+      <map>
+        <entry key="@&lt;file_name&gt;  @&lt;file_name&gt; @&lt;file_name&gt;    private int GetActivePips(int evolutionLevel)&#10;        {&#10;            if (_pipsPerTier &lt;= 0)&#10;                return 0;&#10;&#10;            if (evolutionLevel % _pipsPerTier == 0)&#10;                return 1;&#10;            &#10;            return evolutionLevel % _pipsPerTier;&#10;        }&#10;мне не нравится вторая проверка, может быть можно как-то избавиться от нее">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1759256838338" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="@&lt;file_name&gt; в методе IsDebuff для STAT_MODIFICATION  нужно понимать что некоторые статы при орицательном значении это buff">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757855011759" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="@&lt;file_name&gt; для системы ContactCollisionSystem нужно более удано название так как столкновение с member">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="2.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1755086040125" />
+                  <option value="1755085988529" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="@&lt;file_name&gt; как мне называть контейнеры в EvolutionaryIncubator, которые будут хранить 1, 2, 3, 4, 5 членов">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1758711672877" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="@&lt;file_name&gt; мне нужен async UniTaskVoid метод, но проблема в том что семантика не подходит, семантику я менять не хочу">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1754994189229" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="@&lt;file_name&gt; нужен тот же flow что и для других конфигов, я имею ввиду про show if и метод об автономнссти">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757101218143" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="@&lt;file_name&gt; нужно поправить builder">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757099128201" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="@&lt;file_name&gt; твоя задача вычленить из InteractiveObjectData конфиг для Cannon">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757098826149" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="@&lt;file_name&gt; твоя задача нормально назвать фильтер для толпы">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757953092273" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="@&lt;file_name&gt; теперь нужно сделать взрыв дрона если у него ноль хп">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757947085231" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="@&lt;file_name&gt; я хочу в FeatureTree добавить возможность форсить паузу для определенной фичи, а также форсить анпаузу для определенной фичи">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757273818941" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="Random.insideUnitSphere * 2f как назвать это значение">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757945915148" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="if (viewLink.View.transform.localScale &gt;= hitAnimation.OriginalScale * PUNCH_SCALE_PERCENT)&#10;                    return;&#10;сдела правильно">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757414706766" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="private int GetActivePips(int evolutionLevel)&#10;{&#10;    if (_pipsPerTier &lt;= 0)&#10;        return 0;&#10;&#10;    return ((evolutionLevel - 1) % _pipsPerTier) + 1;&#10;}&#10;это не будет работать если evolution level  5 а pipsPerTier = 5">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1759257038280" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="use new switch syntax">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1769084477045" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="имею ввиду подобную логику CurrencyReward currencyReward = rewards.GetReward&lt;CurrencyReward&gt;();&#10;&#10;                            if (currencyReward != null)&#10;                            {&#10;                                switch (currencyReward.CurrencyType)&#10;                                {&#10;                                    case CurrencyType.GOLD:&#10;                                        _runStatisticsService.AddGold(currencyReward.Amount.FinalValue);&#10;                                        break;&#10;                                    case CurrencyType.GEMS:&#10;                                        _runStatisticsService.AddGems(currencyReward.Amount.FinalValue);&#10;                                        break;&#10;                                }&#10;                            }">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1754985383027" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="как называть метод для кода в выделении">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1761851513250" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="мне вообще не нравится порядок слов">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757266673427" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="мне не нравится naming для этого метода">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1754985436189" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="мне не нравится название этого метода">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757266659670" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="мне не нравится это название">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1761851580322" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="мне не нравитя этот вариает, сделай просто sub асинк метод внутри обычного метода">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1754994283974" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="мне нужен флаг чтобы все собраны">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1761852121423" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="мне нужна простая функция для генерации награды в зависимости от ряда, напримре на первом ряду 5, на втором ряду 25, на третьем ряду 45, или любая другая последовательность">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1760447445240" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="напишем метод который будет принимать Rewards и уже распределять награды">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1754985093713" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="напиши метод который будет делат ь_roads.Count - _generationSettings.EmptyRoadsAtEnd - 1">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757266511825" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="напиши метод который будет делать _roads.Count - _generationSettings.EmptyRoadsAtEnd - 1">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757266394185" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="нормально назови этот метод">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757266628216" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="нужно вынести в отдельный метод">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1765459065924" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="нужно сделать то же самое из этих свойств поля">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1755940514590" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="нужно убрать магические числа">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1755952303095" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="он не будет внутри update, он будет public и я буду вызывать его извне">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1761851560442" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="сделай foldout атрибуты, label у foldout это тип объекта">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757010382414" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="сделай итераторы из этих методов">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1754996785099" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="сначала нужно удлаить из коллекции объекты в методе AddSystemObjectsToLevelData">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757166651597" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="твоя задача отображать в scene gui радиус">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1756408853705" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="теперь нужен тот же flow что и для других конфигов, я имею ввиду про show if">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757101114447" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="фывафвыа">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1757414690691" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="этот вариант уже лучше, но не  взаимодйествие а конкретно контакт">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1755086116701" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="я хочу иметь шанс для кол-ва, максимально кол-во может быть 5, чем выше число  тем меньше шанс, кроме того я хочу редактировать шансы в инспекторе">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1760445904437" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="я хочу свести у математике, а не к дополнительному условю">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1759257075746" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="я хочу чтобы я мог создать мирного в CrowdAddMembersSystem, формациям мирных находится за основной толпой @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt; @&lt;file_name&gt;">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1761912141328" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
