@@ -1,5 +1,5 @@
 <p align="center">
-<img width="256" height="256" alt="worm-runner-icon" src="https://github.com/user-attachments/assets/f519f3e7-c44b-40b3-a408-a764833f6bd4" />
+<img width="256" height="256" alt="worm-runner-icon-rounded" src="https://github.com/user-attachments/assets/fe0c2aa7-a216-471a-b581-e25046800f76" />
 
 # Worm Runner
 
